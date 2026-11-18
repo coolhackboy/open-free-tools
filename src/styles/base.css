@@ -1,0 +1,159 @@
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    scroll-padding-top: 5rem;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100dvh;
+    background: var(--bg);
+    color: var(--fg);
+    font-family: var(--font-sans);
+    font-feature-settings: 'ss01', 'cv11';
+  }
+
+  ::selection {
+    background: var(--accent-soft);
+    color: var(--fg);
+  }
+
+  /* Visible, consistent focus ring for keyboard users only. */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+
+  button,
+  [role='button'],
+  label[for],
+  summary,
+  select {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+  }
+
+  input,
+  textarea,
+  select,
+  button {
+    font: inherit;
+    color: inherit;
+  }
+
+  input[type='range'],
+  input[type='checkbox'],
+  input[type='radio'],
+  progress {
+    accent-color: var(--accent-ink);
+  }
+
+  textarea {
+    resize: vertical;
+  }
+
+  canvas,
+  img,
+  svg,
+  video {
+    max-width: 100%;
+  }
+}
+
+/* Workspace controls share one height so rows line up. */
+.free-tool-control {
+  box-sizing: border-box;
+  height: 2.5rem;
+  min-height: 2.5rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  line-height: calc(2.5rem - 2px);
+}
+
+.free-tool-download-bar {
+  display: block;
+  width: 100%;
+  height: 0.5rem;
+  overflow: hidden;
+  border: 0;
+  border-radius: 999px;
+  background: var(--surface-3);
+  accent-color: var(--accent);
+}
+
+.free-tool-download-bar::-webkit-progress-bar {
+  background: var(--surface-3);
+  border-radius: 999px;
+}
+
+.free-tool-download-bar::-webkit-progress-value {
+  background: var(--accent);
+  border-radius: 999px;
+  transition: width 200ms linear;
+}
+
+.free-tool-download-bar::-moz-progress-bar {
+  background: var(--accent);
+  border-radius: 999px;
+}
+
+/* Checkerboard behind images with transparency. */
+.checker {
+  background-color: var(--surface);
+  background-image:
+    linear-gradient(45deg, var(--checker) 25%, transparent 25%, transparent 75%, var(--checker) 75%),
+    linear-gradient(45deg, var(--checker) 25%, transparent 25%, transparent 75%, var(--checker) 75%);
+  background-size: 20px 20px;
+  background-position: 0 0, 10px 10px;
+}
+
+.skeleton {
+  background: linear-gradient(90deg, var(--surface-2) 0%, var(--surface-3) 50%, var(--surface-2) 100%);
+  background-size: 200% 100%;
+  animation: var(--animate-shimmer);
+}
+
+.scrollbar-none {
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Color pickers: a swatch, not a full-width bar. */
+input[type='color'].free-tool-control {
+  width: 4.5rem;
+  max-width: 100%;
+  flex: none;
+  padding: 4px;
+  cursor: pointer;
+}
+input[type='color']::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+input[type='color']::-webkit-color-swatch {
+  border: 0;
+  border-radius: 5px;
+}
+input[type='color']::-moz-color-swatch {
+  border: 0;
+  border-radius: 5px;
+}
