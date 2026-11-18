@@ -13,8 +13,8 @@ import path from 'node:path';
 import type { Plugin } from 'vite';
 import { FREE_TOOLS } from '../src/tools/catalog.ts';
 import { LOCALES, getToolCopy, pagePath, type Landing, type Locale } from '../src/lib/copy.ts';
-import en from '../src/copy/en.json';
-import zh from '../src/copy/zh.json';
+import en from '../src/copy/en.json' with { type: 'json' };
+import zh from '../src/copy/zh.json' with { type: 'json' };
 
 const LANDING: Record<Locale, Landing> = { en: en as unknown as Landing, zh: zh as unknown as Landing };
 const HTML_LANG: Record<Locale, string> = { en: 'en', zh: 'zh-CN' };
