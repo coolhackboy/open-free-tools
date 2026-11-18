@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <!--seo:start-->
+    <title>__BRAND_NAME__: free tools that run in your browser</title>
+    <meta name="description" content="Image, video, audio, PDF, 3D, data and calculator tools that run in your browser. No sign-up, no watermark, and your files stay on your device." />
+    <!--seo:end-->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="theme-color" content="#0b0b0d" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#fafaf9" media="(prefers-color-scheme: light)" />
+    <meta name="color-scheme" content="light dark" />
+    <style>
+      html { background: #fafaf9; color: #18181b; font-family: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+      @media (prefers-color-scheme: dark) { html:not([data-theme='light']) { background: #0b0b0d; color: #f4f4f5; } }
+      html[data-theme='dark'] { background: #0b0b0d; color: #f4f4f5; }
+      /* Static copy written by the prerender step; replaced as soon as the app mounts. */
+      .shell { max-width: 760px; margin: 0 auto; padding: 120px 20px 64px; line-height: 1.6; animation: shell-in 0.2s 0.8s both; }
+      .shell h1 { font-size: 2.25rem; line-height: 1.15; letter-spacing: -0.02em; margin: 0 0 12px; }
+      .shell h2 { font-size: 1.125rem; margin: 32px 0 8px; }
+      .shell p, .shell li, .shell dd { opacity: 0.75; }
+      .shell a { color: inherit; }
+      .shell-eyebrow { font-size: 0.8125rem; text-transform: uppercase; letter-spacing: 0.06em; margin: 0 0 8px; }
+      .shell-links { columns: 2; padding-left: 18px; }
+      @keyframes shell-in { from { opacity: 0; } to { opacity: 1; } }
+      @media (prefers-reduced-motion: reduce) { .shell { animation: none; } }
+    </style>
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      try {
+        var t = localStorage.getItem('oft.theme');
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"><!--shell:start--><!--shell:end--></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

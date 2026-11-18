@@ -1,0 +1,33 @@
+# Dependencies & build output
+node_modules
+dist
+dist-ssr
+*.tsbuildinfo
+
+# Environment: keep only the example
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Local review artifacts (screenshots, smoke-test output)
+.review/
+test-results/
+playwright-report/
+
+# Editors & OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
+*.sw?
+
+# Deploy tooling state
+.vercel
+.netlify
