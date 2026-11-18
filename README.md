@@ -187,6 +187,10 @@ Design tokens (colors, radius, type) live in `src/styles/tokens.css`.
     audio is processed by Google. Transcribing a file uses Whisper locally instead.
 - The footer has one link to the sponsor site; nothing is loaded from it.
 
+## Security notes
+
+`npm audit` currently reports a ReDoS advisory in `picomatch` ([GHSA-fc5q-39xc-vjpf](https://github.com/advisories/GHSA-fc5q-39xc-vjpf)). It affects every published picomatch version, has no fix yet, and reaches this project only through build and lint tooling (Vite, typescript-eslint). None of it ships in the built site: `npm audit --omit=dev` reports 0 vulnerabilities. Dependencies will be bumped as soon as a fixed release is out.
+
 ## Project structure
 
 ```

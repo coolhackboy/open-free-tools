@@ -242,9 +242,9 @@ export function QrTool({ locale }: Props) {
         </div>
         <div className="flex flex-col items-center gap-3">
           <div className="rounded-lg border border-line bg-white p-2 shadow-sm">
-            <QRCodeCanvas id="oft-qr" value={payload} size={240} fgColor={color} includeMargin={false} marginSize={2} aria-label={tx(locale, "QR code preview", "二维码预览")} />
+            <QRCodeCanvas id="oft-qr" value={payload} size={240} fgColor={color} marginSize={4} aria-label={tx(locale, "QR code preview", "二维码预览")} />
           </div>
-          <QRCodeSVG ref={svgRef} value={payload} size={240} fgColor={color} marginSize={2} className="hidden" aria-hidden="true" />
+          <QRCodeSVG ref={svgRef} value={payload} size={240} fgColor={color} marginSize={4} className="hidden" aria-hidden="true" />
           <div className="flex gap-2">
             <ActionButton type="button" onClick={() => {
               const canvas = document.getElementById("oft-qr") as HTMLCanvasElement | null;

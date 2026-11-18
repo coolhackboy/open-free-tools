@@ -15,7 +15,7 @@ export function jsonToYaml(text: string, indent = 2) {
   try {
     value = JSON.parse(text);
   } catch (error) {
-    throw new Error(error instanceof Error ? error.message : "This is not valid JSON.");
+    throw new Error(error instanceof Error ? error.message : "This is not valid JSON.", { cause: error });
   }
   return YAML.stringify(value, { indent, lineWidth: 0 });
 }

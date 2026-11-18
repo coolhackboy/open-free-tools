@@ -45,6 +45,11 @@ async function loadPdfjs() {
 }
 
 async function extractPdfText(bytes: Uint8Array) {
+  return (await extractPdfPages(bytes)).join("\n");
+}
+
+/** Text of each page, in order. */
+async function extractPdfPages(bytes: Uint8Array) {
   const pdfjs = await loadPdfjs();
   const pdf = await pdfjs.getDocument({ data: bytes.slice() }).promise;
   const pages: string[] = [];
@@ -53,7 +58,7 @@ async function extractPdfText(bytes: Uint8Array) {
     const content = await page.getTextContent();
     pages.push(content.items.map((item) => ("str" in item ? item.str : "")).join(" "));
   }
-  return pages.join("\n");
+  return pages;
 }
 
 async function rasterPdf(lines: string[]) {
@@ -265,9 +270,11 @@ export function OfficeTool({ tool, locale }: Props) {
     }
     if (mode === "reader") {
       const source = first ?? await samplePdf(["Hello from the PDF reader.", "Second line."]);
-      const extracted = await extractPdfText(source);
+      const pages = await extractPdfPages(source);
+      const extracted = pages.join("\n");
+      const words = extracted.trim().split(/\s+/).filter(Boolean).length;
       setPreview(extracted);
-      setResult(`Page 1 · ${extracted.trim().split(/\s+/).filter(Boolean).length} words`);
+      setResult(`${pages.length} ${pages.length === 1 ? "page" : "pages"} · ${words} ${words === 1 ? "word" : "words"}`);
       return;
     }
     if (mode === "to-text") {

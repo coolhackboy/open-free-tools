@@ -38,8 +38,8 @@ async function fetchText(url: string, init: RequestInit = {}, timeoutMs = 10000)
     if (!response.ok) throw new Error(`Request failed (${response.status}).`);
     return await response.text();
   } catch (error) {
-    if (error instanceof DOMException && error.name === "AbortError") throw new Error("The request timed out. Try again.");
-    if (error instanceof TypeError) throw new Error("The service could not be reached. Check your connection or try again later.");
+    if (error instanceof DOMException && error.name === "AbortError") throw new Error("The request timed out. Try again.", { cause: error });
+    if (error instanceof TypeError) throw new Error("The service could not be reached. Check your connection or try again later.", { cause: error });
     throw error;
   } finally {
     window.clearTimeout(timer);
@@ -57,8 +57,8 @@ async function fetchJson(url: string, init: RequestInit = {}, timeoutMs = 10000)
     if (!response.ok) throw new Error((body && (body.message || body.error)) || `Request failed (${response.status}).`);
     return body;
   } catch (error) {
-    if (error instanceof DOMException && error.name === "AbortError") throw new Error("The request timed out. Try again.");
-    if (error instanceof TypeError) throw new Error("The service could not be reached. Check your connection or try again later.");
+    if (error instanceof DOMException && error.name === "AbortError") throw new Error("The request timed out. Try again.", { cause: error });
+    if (error instanceof TypeError) throw new Error("The service could not be reached. Check your connection or try again later.", { cause: error });
     throw error;
   } finally {
     window.clearTimeout(timer);
