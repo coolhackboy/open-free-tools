@@ -42,7 +42,8 @@ export default defineConfig(({ mode }) => {
     worker: { format: 'es' },
     build: {
       target: 'es2022',
-      chunkSizeWarningLimit: 900,
+      // bwip-js (barcode pages only) is the largest lazy chunk at ~960 kB.
+      chunkSizeWarningLimit: 1000,
       rollupOptions: {
         output: {
           // Long-lived vendor chunks keep the app chunk small and cache-friendly.

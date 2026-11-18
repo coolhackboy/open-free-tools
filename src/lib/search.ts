@@ -70,9 +70,13 @@ function words(text: string) {
   return normalize(text).split(/[^a-z0-9\u3000-\u9fff\uac00-\ud7af]+/).filter(Boolean);
 }
 
-/** Damerau-free Levenshtein with an early exit once the distance exceeds `max`. */
+/**
+ * Edit distance (optimal string alignment: insert, delete, substitute, swap two neighbours)
+ * with an early exit once every cell in a row exceeds `max`. "mrege" is one edit from "merge".
+ */
 function within(a: string, b: string, max: number) {
   if (Math.abs(a.length - b.length) > max) return false;
+  let before: number[] = [];
   let prev = Array.from({ length: b.length + 1 }, (_, i) => i);
   for (let i = 1; i <= a.length; i += 1) {
     const row = [i];
@@ -80,9 +84,11 @@ function within(a: string, b: string, max: number) {
     for (let j = 1; j <= b.length; j += 1) {
       const cost = a[i - 1] === b[j - 1] ? 0 : 1;
       row[j] = Math.min(prev[j] + 1, row[j - 1] + 1, prev[j - 1] + cost);
+      if (i > 1 && j > 1 && a[i - 1] === b[j - 2] && a[i - 2] === b[j - 1]) row[j] = Math.min(row[j], before[j - 2] + 1);
       if (row[j] < best) best = row[j];
     }
     if (best > max) return false;
+    before = prev;
     prev = row;
   }
   return prev[b.length] <= max;
@@ -109,7 +115,7 @@ function scoreWord(term: string, list: string[], weight: number) {
     if (word === term) return weight;
     if (word.startsWith(term)) best = Math.max(best, weight * 0.85);
     else if (term.length >= 3 && word.includes(term)) best = Math.max(best, weight * 0.55);
-    else if (fuzz && word.length >= 3 && within(term, word.slice(0, term.length + fuzz), fuzz)) best = Math.max(best, weight * 0.5);
+    else if (fuzz && word.length >= 3 && (within(term, word, fuzz) || within(term, word.slice(0, term.length), fuzz))) best = Math.max(best, weight * 0.5);
   }
   return best;
 }
@@ -129,6 +135,8 @@ export function search(index: Indexed[], query: string): FreeTool[] {
   if (!raw) return index.map((item) => item.doc.tool);
   const terms = raw.split(/\s+/).filter((term) => term && term !== 'free' && term !== '\u514d\u8d39');
   if (!terms.length) return index.map((item) => item.doc.tool);
+  const SLUG_ALIASES: Record<string, string> = { jpeg: 'jpg', tif: 'tiff' };
+  const ordered = terms.map((term) => SLUG_ALIASES[term] ?? term).join('-');
   const results: { tool: FreeTool; score: number; order: number }[] = [];
   index.forEach((item, order) => {
     let total = 0;
@@ -140,6 +148,8 @@ export function search(index: Indexed[], query: string): FreeTool[] {
     }
     if (item.titleText.includes(raw)) total += 8;
     if (item.doc.tool.slug === raw.replace(/\s+/g, '-')) total += 20;
+    // Word order matters for converters: "jpeg to pdf" should rank jpg-to-pdf above pdf-to-jpg.
+    else if (terms.length > 1 && item.doc.tool.slug.includes(ordered)) total += 12;
     results.push({ tool: item.doc.tool, score: total, order });
   });
   return results.sort((a, b) => b.score - a.score || a.order - b.order).map((item) => item.tool);
