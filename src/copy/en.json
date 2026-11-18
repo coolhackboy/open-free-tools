@@ -1,0 +1,3161 @@
+{
+  "index": {
+    "eyebrow": "Free tools",
+    "title": "Free tools that run in your browser",
+    "metaTitle": "Free Online Tools: Image, Video, PDF, No Sign-Up",
+    "description": "Image, video, audio, PDF, 3D, data and calculator tools that run in your browser. No sign-up, no watermark, and your files stay on your device.",
+    "benefit": "Open source. No sign-up, no ads, no watermark.",
+    "search": "Search tools: PDF, GIF, STL…",
+    "open": "Open tool",
+    "free": "FREE",
+    "all": "All",
+    "empty": "No tools match that search.",
+    "shortcuts": "Shortcuts for popular tasks",
+    "home": "Home",
+    "crumb": "Free Tools",
+    "faqTitle": "Free tools FAQ",
+    "faqs": [
+      {
+        "question": "Do these tools cost anything?",
+        "answer": "No. Every tool is free, and the code is open source under the MIT license."
+      },
+      {
+        "question": "Do I have to sign in?",
+        "answer": "No. There are no accounts, no cookies and no analytics."
+      },
+      {
+        "question": "Do the results have a watermark?",
+        "answer": "No. Nothing is added to your download. The watermark tool only adds the text you type."
+      },
+      {
+        "question": "Why does a tool pause the first time I run it?",
+        "answer": "Video tools, OCR, the upscaler and speech-to-text download an engine or model from a public CDN on the first run. That download contains none of your data, and your file is then processed on your device."
+      },
+      {
+        "question": "Can I host my own copy?",
+        "answer": "Yes. It is a static site: build it once and deploy it to GitHub Pages, Netlify, Vercel or any web server."
+      }
+    ]
+  },
+  "page": {
+    "allTools": "All free tools",
+    "freeBadge": "100% free",
+    "stepsKicker": "Three steps",
+    "usesKicker": "Use cases",
+    "featuresKicker": "Features",
+    "badges": [
+      "Free",
+      "No sign-up",
+      "Runs in your browser",
+      "No watermark"
+    ],
+    "howTitle": "How to use {title}",
+    "useTitle": "Where it helps",
+    "featureTitle": "What this tool includes",
+    "localTitle": "Runs locally",
+    "faqTitle": "{title} FAQ",
+    "relatedTitle": "More free tools like this",
+    "openLabel": "Open tool",
+    "closingTitle": "Free to use, right in your browser.",
+    "file": {
+      "privacy": "Files are processed in this browser tab. This tool does not ask for an account or upload your file.",
+      "uses": [
+        {
+          "title": "Private files",
+          "body": "Work on a photo, video or document before it is ready to share."
+        },
+        {
+          "title": "Quick fixes",
+          "body": "Convert, check or tidy a file without installing software."
+        },
+        {
+          "title": "The next step",
+          "body": "Download the result for print, publishing or your next project."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Open the page and use it."
+        },
+        {
+          "question": "Is my file uploaded?",
+          "answer": "No. Files are processed in this browser tab. This tool does not ask for an account or upload your file."
+        },
+        {
+          "question": "Is there a watermark?",
+          "answer": "No. Nothing is added to the download."
+        },
+        {
+          "question": "Why does it pause the first time?",
+          "answer": "Some tools download an encoder or AI model on the first run. That download contains none of your file, and later runs are usually faster."
+        }
+      ]
+    },
+    "input": {
+      "privacy": "This tool runs in this browser tab and does not ask for an account. What you enter is not sent anywhere.",
+      "uses": [
+        {
+          "title": "Quick answers",
+          "body": "Open the page and get a result without installing an app."
+        },
+        {
+          "title": "Any computer",
+          "body": "It works in a current browser on Windows, macOS, Linux or ChromeOS."
+        },
+        {
+          "title": "Nothing to clean up",
+          "body": "Close the tab when you are done. No copy is kept."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Open the page and use it."
+        },
+        {
+          "question": "Is what I enter sent anywhere?",
+          "answer": "This tool runs in this browser tab and does not ask for an account. What you enter is not sent anywhere."
+        },
+        {
+          "question": "Does it cost anything?",
+          "answer": "No. It is free and open source."
+        },
+        {
+          "question": "Can I use it on my phone?",
+          "answer": "Yes, in a current mobile browser. Tools that need a physical keyboard or mouse are easier on a computer."
+        }
+      ]
+    },
+    "net": {
+      "privacy": "This tool runs in your browser but asks a public service for the answer: {service}. Nothing else is sent, and this site keeps no log.",
+      "uses": [
+        {
+          "title": "Quick checks",
+          "body": "Get the answer in a second, without installing a command-line tool."
+        },
+        {
+          "title": "Any device",
+          "body": "It works in a current browser on a computer or a phone."
+        },
+        {
+          "title": "No account",
+          "body": "There is nothing to sign up for and no history is stored."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do I need an account?",
+          "answer": "No. Open the page and use it."
+        },
+        {
+          "question": "What leaves my browser?",
+          "answer": "Only the request to {service}. That service sees your IP address, like any website you visit."
+        },
+        {
+          "question": "Does it cost anything?",
+          "answer": "No. It is free and open source."
+        },
+        {
+          "question": "Can I use it on my phone?",
+          "answer": "Yes, in a current mobile browser."
+        }
+      ]
+    }
+  },
+  "categories": {
+    "image": "Image & design",
+    "video": "Video & audio",
+    "pdf": "PDF & documents",
+    "diagrams": "Whiteboards & charts",
+    "games": "Games & learning",
+    "devices": "Device tests",
+    "everyday": "Calculators & timers",
+    "data": "Data, maps & medical files",
+    "3d": "3D printing & CAD",
+    "craft": "Crafts & laser",
+    "codes": "Codes & text"
+  },
+  "kinds": {
+    "image": [
+      [
+        "Add images",
+        "Drop one image or a batch. They stay in this tab."
+      ],
+      [
+        "Choose the settings",
+        "Pick the format, size, quality or text this tool offers."
+      ],
+      [
+        "Download",
+        "Save each result to your device."
+      ]
+    ],
+    "vectorizer": [
+      [
+        "Add a picture",
+        "Logos, icons and flat artwork trace more cleanly than photos."
+      ],
+      [
+        "Trace",
+        "The browser turns the shapes into SVG paths."
+      ],
+      [
+        "Download SVG",
+        "Open the file in any vector editor."
+      ]
+    ],
+    "editor": [
+      [
+        "Add a photo",
+        "The original stays on your device."
+      ],
+      [
+        "Adjust",
+        "Pick a filter look, set the brightness and add a caption."
+      ],
+      [
+        "Download PNG",
+        "Save the edited copy."
+      ]
+    ],
+    "crop": [
+      [
+        "Add a photo",
+        "It appears inside the crop box."
+      ],
+      [
+        "Frame it",
+        "Choose a ratio such as 1:1, 4:5 or 16:9, or type exact values."
+      ],
+      [
+        "Download",
+        "Only the framed area is saved."
+      ]
+    ],
+    "collage": [
+      [
+        "Add photos",
+        "Two or more work best."
+      ],
+      [
+        "Add a caption",
+        "The layout is set by the tool you opened."
+      ],
+      [
+        "Download PNG",
+        "Save the collage at full size."
+      ]
+    ],
+    "logo": [
+      [
+        "Type the name",
+        "Add a short tagline if you want one."
+      ],
+      [
+        "Style it",
+        "Pick a circle, square or triangle icon and two colors."
+      ],
+      [
+        "Download",
+        "SVG, PNG, 512 and 32 px icons, and a 1200×630 social image."
+      ]
+    ],
+    "passport": [
+      [
+        "Add a portrait",
+        "Face the camera against a plain background."
+      ],
+      [
+        "Choose the size",
+        "US 2×2 in, China 33×48 mm, Schengen 35×45 mm or 50×50 mm."
+      ],
+      [
+        "Download",
+        "Save the 300 DPI photo and a 4×6 print sheet with six copies."
+      ]
+    ],
+    "mockup": [
+      [
+        "Add the design",
+        "A screenshot, poster or label."
+      ],
+      [
+        "Choose a frame",
+        "Phone, laptop, poster, box or billboard."
+      ],
+      [
+        "Download PNG",
+        "Save the composed mockup."
+      ]
+    ],
+    "screenshots": [
+      [
+        "Add a screenshot",
+        "Use the raw app screen."
+      ],
+      [
+        "Write the headline",
+        "Pick a background color."
+      ],
+      [
+        "Download ZIP",
+        "Get iPhone 6.7 and 6.5 inch, iPad 12.9 inch, Android phone and Play feature graphic sizes."
+      ]
+    ],
+    "sticker": [
+      [
+        "Add the artwork",
+        "A PNG with a clean edge works best."
+      ],
+      [
+        "Get the border",
+        "White padding and a dashed cut rectangle are added."
+      ],
+      [
+        "Download",
+        "Save the print PNG and an SVG cut line."
+      ]
+    ],
+    "pattern": [
+      [
+        "Add a picture",
+        "Simple shapes read better on a small grid."
+      ],
+      [
+        "Set the columns",
+        "Choose 8 to 80 columns to match your board or fabric."
+      ],
+      [
+        "Download the chart",
+        "Save the PNG. The color counts are listed on the page."
+      ]
+    ],
+    "ffmpeg": [
+      [
+        "Add media",
+        "The FFmpeg encoder downloads once, then runs on your device."
+      ],
+      [
+        "Choose the settings",
+        "Width, format, speed or start and end times, depending on the tool."
+      ],
+      [
+        "Download",
+        "Save the new file when encoding finishes."
+      ]
+    ],
+    "lut": [
+      [
+        "Pick a look",
+        "Warm, Cool, Film, Teal, Mono and more."
+      ],
+      [
+        "Preview",
+        "Drop a still to see the grade."
+      ],
+      [
+        "Download the cube file",
+        "Load it in Premiere Pro, DaVinci Resolve or Final Cut Pro."
+      ]
+    ],
+    "gif": [
+      [
+        "Add images",
+        "They play in the order you add them."
+      ],
+      [
+        "Set the timing",
+        "Change the frame delay and add a caption."
+      ],
+      [
+        "Download GIF",
+        "Frames are 640×360."
+      ]
+    ],
+    "subtitles": [
+      [
+        "Add media or type",
+        "Load a video or audio file, or type the lines."
+      ],
+      [
+        "Transcribe or mark cues",
+        "Whisper transcribes the first 30 seconds, or mark each line while it plays."
+      ],
+      [
+        "Export",
+        "Download SRT, VTT or TXT."
+      ]
+    ],
+    "screen": [
+      [
+        "Choose what to share",
+        "The browser asks for a screen, window or tab."
+      ],
+      [
+        "Record",
+        "Allow the microphone if you want narration."
+      ],
+      [
+        "Stop and download",
+        "The WebM file saves without a watermark."
+      ]
+    ],
+    "green": [
+      [
+        "Add a photo or video",
+        "A solid green or blue backdrop works best."
+      ],
+      [
+        "Key the color",
+        "Pick the key color and adjust the similarity."
+      ],
+      [
+        "Download PNG",
+        "The keyed frame saves with a transparent background."
+      ]
+    ],
+    "voice": [
+      [
+        "Allow the microphone",
+        "The level bar shows audio is coming in."
+      ],
+      [
+        "Record",
+        "Press Stop when you are done."
+      ],
+      [
+        "Download",
+        "The WebM recording saves to your device."
+      ]
+    ],
+    "teleprompter": [
+      [
+        "Paste the script",
+        "Set the scroll speed."
+      ],
+      [
+        "Play",
+        "Space starts and pauses. Mirror flips the text for a glass rig."
+      ],
+      [
+        "Read",
+        "Keep your eyes near the camera while the text scrolls."
+      ]
+    ],
+    "video-editor": [
+      [
+        "Add clips",
+        "They play in the order you add them."
+      ],
+      [
+        "Add a title",
+        "A one-second title card opens the video."
+      ],
+      [
+        "Export MP4",
+        "Clips are joined at 640×360 without audio."
+      ]
+    ],
+    "music": [
+      [
+        "Program the steps",
+        "Toggle kick, snare, hat and bass on a 16-step grid."
+      ],
+      [
+        "Set the tempo",
+        "Change the BPM and press Play."
+      ],
+      [
+        "Export",
+        "Download a WAV or record one loop as WebM."
+      ]
+    ],
+    "sheet": [
+      [
+        "Type the notes",
+        "Use names such as C4 E4 G4, with | between bars."
+      ],
+      [
+        "Play",
+        "Hear the line before you export."
+      ],
+      [
+        "Download",
+        "Save MusicXML, or an SVG of the note names on a staff."
+      ]
+    ],
+    "piano": [
+      [
+        "Play",
+        "Click a key or use A S D F G H J on your keyboard."
+      ],
+      [
+        "Change octave",
+        "Move between octaves 2 and 6."
+      ],
+      [
+        "Download a scale",
+        "Save a WAV of the white-key scale."
+      ]
+    ],
+    "guitar": [
+      [
+        "Pick a chord",
+        "C, G, Am, F, D, Em, E or A."
+      ],
+      [
+        "Set the capo",
+        "Frets 0 to 8 shift the pitch."
+      ],
+      [
+        "Download WAV",
+        "Save the strummed chord."
+      ]
+    ],
+    "pdf": [
+      [
+        "Add the PDF or images",
+        "Files stay in this tab."
+      ],
+      [
+        "Set the options",
+        "Page range, text or signature, depending on the tool."
+      ],
+      [
+        "Download",
+        "Save the new PDF or the page images."
+      ]
+    ],
+    "whiteboard": [
+      [
+        "Pick a color",
+        "Choose the ink."
+      ],
+      [
+        "Draw",
+        "Sketch freehand with a mouse, pen or finger."
+      ],
+      [
+        "Export PNG",
+        "The board is not saved to a server."
+      ]
+    ],
+    "mind-map": [
+      [
+        "Start from the center",
+        "Type a branch and press Add."
+      ],
+      [
+        "Arrange",
+        "Drag nodes until the map reads clearly."
+      ],
+      [
+        "Export JSON",
+        "Save the structure to keep or reuse."
+      ]
+    ],
+    "sudoku": [
+      [
+        "Fill the grid",
+        "Conflicting numbers turn red."
+      ],
+      [
+        "Ask for a hint",
+        "One empty cell is filled from the solution."
+      ],
+      [
+        "Solve or reset",
+        "Reveal the answer or start over."
+      ]
+    ],
+    "typing": [
+      [
+        "Start typing",
+        "The timer starts with the first character."
+      ],
+      [
+        "Finish the passage",
+        "WPM and accuracy appear at the end."
+      ],
+      [
+        "Try another",
+        "Move to the next passage and compare."
+      ]
+    ],
+    "mesh": [
+      [
+        "Open a model",
+        "STL, OBJ, GLB, glTF, FBX and 3MF open in the browser."
+      ],
+      [
+        "Inspect it",
+        "Orbit, zoom and read the triangle count."
+      ],
+      [
+        "Download",
+        "Save the converted file or a PNG screenshot."
+      ]
+    ],
+    "relief": [
+      [
+        "Add a photo",
+        "Brightness becomes height."
+      ],
+      [
+        "Set the size",
+        "Width and thickness are in millimeters."
+      ],
+      [
+        "Download STL",
+        "Slice it in your printer software."
+      ]
+    ],
+    "dxf": [
+      [
+        "Add a file or text",
+        "An image, SVG, DXF or a word, depending on the tool."
+      ],
+      [
+        "Check the preview",
+        "The outlines appear as SVG on the page."
+      ],
+      [
+        "Download",
+        "Save the DXF, SVG or PDF."
+      ]
+    ],
+    "qr": [
+      [
+        "Choose the content",
+        "A link, text, Wi-Fi network or contact name."
+      ],
+      [
+        "Pick a color",
+        "The code updates as you type."
+      ],
+      [
+        "Download PNG",
+        "The code is static and never expires."
+      ]
+    ],
+    "barcode": [
+      [
+        "Enter the digits or text",
+        "EAN and UPC check digits are added when you leave them off."
+      ],
+      [
+        "Choose the symbology",
+        "Code 128, EAN-13, UPC-A, ITF-14, Data Matrix or Code 39."
+      ],
+      [
+        "Download SVG",
+        "Vector output stays sharp at any print size."
+      ]
+    ],
+    "password": [
+      [
+        "Choose the rules",
+        "Length 8 to 64, symbols on or off, or a four-word passphrase."
+      ],
+      [
+        "Generate",
+        "Randomness comes from your browser's crypto API."
+      ],
+      [
+        "Copy",
+        "The password is never stored or sent."
+      ]
+    ],
+    "font": [
+      [
+        "Type your text",
+        "Latin letters are converted."
+      ],
+      [
+        "Pick a style",
+        "Each line is a different Unicode style."
+      ],
+      [
+        "Click to copy",
+        "Paste it into a bio, caption or username."
+      ]
+    ],
+    "word": [
+      [
+        "Paste or type",
+        "Counts update as you type."
+      ],
+      [
+        "Check the limits",
+        "Compare the length with X, Instagram and meta description limits."
+      ],
+      [
+        "Read the stats",
+        "Words, characters, sentences and reading time."
+      ]
+    ],
+    "json": [
+      [
+        "Paste JSON",
+        "Large integers keep their exact digits."
+      ],
+      [
+        "Format",
+        "Beautify, minify or sort the keys."
+      ],
+      [
+        "Copy",
+        "Errors show the line and column."
+      ]
+    ],
+    "calc": [
+      [
+        "Enter the values",
+        "Dates, amounts, rates or an expression, depending on the tool."
+      ],
+      [
+        "Run",
+        "The result is calculated in your browser."
+      ],
+      [
+        "Read the result",
+        "It appears on the page right away."
+      ]
+    ],
+    "device": [
+      [
+        "Start the test",
+        "The browser asks before it opens a camera or microphone."
+      ],
+      [
+        "Press, click or listen",
+        "Press keys, move the mouse, play a tone or cycle colors."
+      ],
+      [
+        "Read the result",
+        "The page shows what the device sent."
+      ]
+    ],
+    "game": [
+      [
+        "Start",
+        "No account or download needed."
+      ],
+      [
+        "Play",
+        "Use the on-screen buttons or click the board."
+      ],
+      [
+        "Play again",
+        "Reset whenever you like."
+      ]
+    ],
+    "audio-lab": [
+      [
+        "Add audio or use the sample",
+        "The audio stays in this tab."
+      ],
+      [
+        "Run",
+        "Measure the loudness or process the samples."
+      ],
+      [
+        "Download",
+        "Processing tools save a WAV to your device."
+      ]
+    ],
+    "office": [
+      [
+        "Add a file or use the sample",
+        "PDFs, Word files, spreadsheets and text stay in this tab."
+      ],
+      [
+        "Run",
+        "The browser reads, converts or compares the file."
+      ],
+      [
+        "Get the result",
+        "Download the new file or read it on the page."
+      ]
+    ],
+    "geo": [
+      [
+        "Add a file or use the sample",
+        "Map, medical and data files stay in this tab."
+      ],
+      [
+        "Run",
+        "The browser draws the shapes or reads the rows."
+      ],
+      [
+        "Get the result",
+        "Converters download the new file to your device."
+      ]
+    ],
+    "dev": [
+      [
+        "Paste or type",
+        "Text, code or a file, depending on the tool."
+      ],
+      [
+        "Pick the options",
+        "The result updates as you type."
+      ],
+      [
+        "Copy or download",
+        "Copy the output or save it as a file."
+      ]
+    ],
+    "unit": [
+      [
+        "Enter a value",
+        "Type in either box."
+      ],
+      [
+        "Pick the units",
+        "Choose from metric, imperial and US units."
+      ],
+      [
+        "Read the result",
+        "Both sides stay in sync as you edit."
+      ]
+    ],
+    "color": [
+      [
+        "Add a color or image",
+        "Paste a code, use the picker or drop a photo."
+      ],
+      [
+        "See every format",
+        "HEX, RGB, HSL and more appear at once."
+      ],
+      [
+        "Copy what you need",
+        "Click a value or swatch to copy it."
+      ]
+    ],
+    "web-asset": [
+      [
+        "Add your file",
+        "Drop an image or SVG, or start from text."
+      ],
+      [
+        "Adjust the options",
+        "The preview updates right away."
+      ],
+      [
+        "Download",
+        "Save the result or copy the code."
+      ]
+    ],
+    "net": [
+      [
+        "Open the tool",
+        "Nothing is sent until you press the button."
+      ],
+      [
+        "Run the check",
+        "Your browser contacts the service named on the page."
+      ],
+      [
+        "Read the result",
+        "Copy any value you need."
+      ]
+    ]
+  },
+  "steps": {
+    "video-upscaler": [
+      [
+        "Add a short video",
+        "Only the first 4 seconds are used."
+      ],
+      [
+        "Choose scale and quality",
+        "2×, 3× or 4×, with Fast, Balanced or Best models."
+      ],
+      [
+        "Download MP4",
+        "Up to 12 frames at 4 fps, with the original audio."
+      ]
+    ],
+    "tuner": [
+      [
+        "Press Run",
+        "An A4 reference tone plays at 440 Hz."
+      ],
+      [
+        "Tune by ear",
+        "Adjust the string until it matches the tone."
+      ],
+      [
+        "Repeat",
+        "Play the tone again whenever you need it."
+      ]
+    ],
+    "metronome": [
+      [
+        "Set the BPM",
+        "Type any tempo."
+      ],
+      [
+        "Start",
+        "A click plays on every beat, accented every four."
+      ],
+      [
+        "Change tempo",
+        "Press Run again after you change the BPM."
+      ]
+    ],
+    "white-noise": [
+      [
+        "Press Run",
+        "A short burst of white noise plays."
+      ],
+      [
+        "Save the WAV",
+        "A one-second file downloads to your device."
+      ],
+      [
+        "Loop it",
+        "Set your audio player or editor to repeat it."
+      ]
+    ],
+    "text-to-speech": [
+      [
+        "Type or paste text",
+        "Any language your browser has a voice for."
+      ],
+      [
+        "Press Run",
+        "The browser reads the text aloud."
+      ],
+      [
+        "Listen",
+        "Audio plays on the page and is not saved as a file."
+      ]
+    ],
+    "gantt-chart-maker": [
+      [
+        "Open the tool",
+        "A three-task sample plan is ready."
+      ],
+      [
+        "Press Run",
+        "The browser draws the Gantt chart as SVG."
+      ],
+      [
+        "Edit the SVG",
+        "Rename tasks and bars in any vector editor."
+      ]
+    ],
+    "gantt-chart-template": [
+      [
+        "Open the tool",
+        "A four-phase template is ready."
+      ],
+      [
+        "Press Run",
+        "The browser draws the template as SVG."
+      ],
+      [
+        "Edit the SVG",
+        "Rename phases and adjust bars in any vector editor."
+      ]
+    ],
+    "project-timeline-maker": [
+      [
+        "Open the tool",
+        "Three sample milestones are ready."
+      ],
+      [
+        "Press Run",
+        "The browser draws the timeline as SVG."
+      ],
+      [
+        "Edit the SVG",
+        "Change the labels and months in any vector editor."
+      ]
+    ],
+    "base64-encoder": [
+      [
+        "Paste text or pick a file",
+        "UTF-8 text, emoji and binary files all work."
+      ],
+      [
+        "Choose standard or URL-safe",
+        "URL-safe uses - and _ and drops the = padding."
+      ],
+      [
+        "Copy the Base64",
+        "Or press Swap to decode it again."
+      ]
+    ],
+    "url-encoder": [
+      [
+        "Paste text or a URL",
+        "Spaces, accents, emoji and symbols are fine."
+      ],
+      [
+        "Pick component or full URL",
+        "Component mode also escapes / ? & and =."
+      ],
+      [
+        "Copy the encoded string",
+        "Query parameters are listed when the input is a URL."
+      ]
+    ],
+    "html-entity-encoder": [
+      [
+        "Paste HTML or text",
+        "Tags, quotes and ampersands are escaped."
+      ],
+      [
+        "Encode or decode",
+        "Decode turns &lt; or &#169; back into characters."
+      ],
+      [
+        "Copy the result",
+        "Paste it into HTML, XML or a template."
+      ]
+    ],
+    "uuid-generator": [
+      [
+        "Choose how many",
+        "From 1 to 1,000 at a time."
+      ],
+      [
+        "Pick the format",
+        "Uppercase, braces or no hyphens."
+      ],
+      [
+        "Copy or download",
+        "One UUID per line in a .txt file."
+      ]
+    ],
+    "hash-generator": [
+      [
+        "Type text or pick a file",
+        "Files are read in this tab, not uploaded."
+      ],
+      [
+        "See every hash at once",
+        "MD5, SHA-1, SHA-256, SHA-384 and SHA-512."
+      ],
+      [
+        "Compare a checksum",
+        "Paste a known hash to check that it matches."
+      ]
+    ],
+    "jwt-decoder": [
+      [
+        "Paste a token",
+        "With or without the Bearer prefix."
+      ],
+      [
+        "Read header and payload",
+        "Shown as formatted JSON."
+      ],
+      [
+        "Check the dates",
+        "iat, nbf and exp are converted to readable time."
+      ]
+    ],
+    "regex-tester": [
+      [
+        "Write a pattern and flags",
+        "JavaScript regular expression syntax."
+      ],
+      [
+        "Paste test text",
+        "Matches are highlighted as you type."
+      ],
+      [
+        "Inspect groups or replace",
+        "See $1, named groups and the replaced text."
+      ]
+    ],
+    "case-converter": [
+      [
+        "Paste your text",
+        "Any length, any language with letters."
+      ],
+      [
+        "Pick a case",
+        "Title, sentence, camelCase, snake_case and more."
+      ],
+      [
+        "Copy the result",
+        "Or download it as a .txt file."
+      ]
+    ],
+    "lorem-ipsum-generator": [
+      [
+        "Choose the amount",
+        "Paragraphs, sentences or words."
+      ],
+      [
+        "Set the options",
+        "Classic opening or <p> tags for HTML."
+      ],
+      [
+        "Copy the placeholder",
+        "Press Regenerate for a different version."
+      ]
+    ],
+    "remove-duplicate-lines": [
+      [
+        "Paste a list",
+        "One item per line."
+      ],
+      [
+        "Set the rules",
+        "Ignore case, trim spaces, drop empty lines."
+      ],
+      [
+        "Copy the clean list",
+        "The first copy of each line is kept, in order."
+      ]
+    ],
+    "unix-timestamp-converter": [
+      [
+        "Paste a timestamp or date",
+        "Seconds, milliseconds, micro or nanoseconds."
+      ],
+      [
+        "Check the unit",
+        "It is detected from the number of digits."
+      ],
+      [
+        "Read every format",
+        "UTC, ISO 8601, your local time and how long ago."
+      ]
+    ],
+    "cron-expression-generator": [
+      [
+        "Type or build an expression",
+        "Edit the five fields or start from a preset."
+      ],
+      [
+        "Read the description",
+        "The schedule is explained in plain words."
+      ],
+      [
+        "Check the next runs",
+        "In your local time or in UTC."
+      ]
+    ],
+    "number-base-converter": [
+      [
+        "Enter a number",
+        "Any length; it uses BigInt."
+      ],
+      [
+        "Pick its base",
+        "From base 2 to base 36."
+      ],
+      [
+        "Copy any result",
+        "Binary, octal, decimal, hex and a custom base."
+      ]
+    ],
+    "yaml-to-json": [
+      [
+        "Paste YAML",
+        "Config files, Kubernetes or GitHub Actions."
+      ],
+      [
+        "Pick the indent",
+        "2 or 4 spaces."
+      ],
+      [
+        "Copy or download JSON",
+        "Errors show the line where parsing stopped."
+      ]
+    ],
+    "markdown-preview": [
+      [
+        "Write or paste Markdown",
+        "GitHub-flavored: tables, task lists, code blocks."
+      ],
+      [
+        "Watch the preview",
+        "It renders next to the editor as you type."
+      ],
+      [
+        "Export",
+        "Copy the HTML or download .md or .html."
+      ]
+    ],
+    "sql-formatter": [
+      [
+        "Paste a query",
+        "One line or a whole script."
+      ],
+      [
+        "Choose the dialect",
+        "MySQL, PostgreSQL, SQL Server, BigQuery and more."
+      ],
+      [
+        "Format and copy",
+        "Pick keyword case and indent, then copy or download .sql."
+      ]
+    ],
+    "base64-decode": [
+      [
+        "Paste Base64",
+        "Standard, URL-safe or a data: URI."
+      ],
+      [
+        "Read the text",
+        "UTF-8 text appears right away."
+      ],
+      [
+        "Download binary data",
+        "Images and files can be saved as a file."
+      ]
+    ],
+    "url-decode": [
+      [
+        "Paste an encoded URL",
+        "Or just the %-encoded part."
+      ],
+      [
+        "Choose how + is read",
+        "As a space, the way HTML forms send it, or literally."
+      ],
+      [
+        "Read the parameters",
+        "Each query value is listed in a table."
+      ]
+    ],
+    "guid-generator": [
+      [
+        "Choose how many",
+        "From 1 to 1,000 GUIDs."
+      ],
+      [
+        "Match your format",
+        "Uppercase and braces for registry or .NET style."
+      ],
+      [
+        "Copy or download",
+        "One GUID per line."
+      ]
+    ],
+    "md5-generator": [
+      [
+        "Type text or pick a file",
+        "Nothing is uploaded."
+      ],
+      [
+        "Read the MD5",
+        "A 32-character hex digest, shown first."
+      ],
+      [
+        "Compare",
+        "Paste an expected MD5 to check that it matches."
+      ]
+    ],
+    "sha256-generator": [
+      [
+        "Type text or pick a file",
+        "Files are hashed locally."
+      ],
+      [
+        "Read the SHA-256",
+        "A 64-character hex digest, shown first."
+      ],
+      [
+        "Verify a checksum",
+        "Paste the published SHA-256 to compare."
+      ]
+    ],
+    "uppercase-converter": [
+      [
+        "Paste your text",
+        "Any length."
+      ],
+      [
+        "It becomes UPPERCASE",
+        "Pick another case with one click if needed."
+      ],
+      [
+        "Copy the result",
+        "Or download it as .txt."
+      ]
+    ],
+    "sort-lines-alphabetically": [
+      [
+        "Paste a list",
+        "One item per line."
+      ],
+      [
+        "Pick the order",
+        "A–Z, Z–A, natural, by length, reverse or shuffle."
+      ],
+      [
+        "Copy the sorted list",
+        "Optionally remove duplicates at the same time."
+      ]
+    ],
+    "epoch-converter": [
+      [
+        "Paste an epoch time",
+        "Seconds or milliseconds, detected automatically."
+      ],
+      [
+        "See the date",
+        "In UTC, ISO 8601 and your local zone."
+      ],
+      [
+        "Go the other way",
+        "Type a date to get its epoch value."
+      ]
+    ],
+    "binary-to-decimal": [
+      [
+        "Enter a binary number",
+        "Spaces and the 0b prefix are allowed."
+      ],
+      [
+        "Read the decimal value",
+        "Exact, even for very long numbers."
+      ],
+      [
+        "See hex and octal too",
+        "All bases update together."
+      ]
+    ],
+    "hex-to-decimal": [
+      [
+        "Enter a hex number",
+        "With or without 0x."
+      ],
+      [
+        "Read the decimal value",
+        "Exact for any length."
+      ],
+      [
+        "Copy any base",
+        "Binary and octal are shown as well."
+      ]
+    ],
+    "json-to-yaml": [
+      [
+        "Paste JSON",
+        "Objects, arrays or a whole config."
+      ],
+      [
+        "Pick the indent",
+        "2 or 4 spaces."
+      ],
+      [
+        "Copy or download YAML",
+        "JSON errors are shown with their position."
+      ]
+    ],
+    "markdown-to-html": [
+      [
+        "Paste Markdown",
+        "README files, notes or docs."
+      ],
+      [
+        "Check the preview",
+        "Switch between preview and HTML."
+      ],
+      [
+        "Copy clean HTML",
+        "Or download a complete .html page."
+      ]
+    ],
+    "unit-converter": [
+      [
+        "Pick a category",
+        "Length, weight, temperature, area, volume or speed."
+      ],
+      [
+        "Choose two units",
+        "Metric, imperial and US units, plus 斤 and 亩."
+      ],
+      [
+        "Type in either box",
+        "The other side and a quick table update."
+      ]
+    ],
+    "kg-to-lbs": [
+      [
+        "Enter kilograms",
+        "Or type pounds on the right."
+      ],
+      [
+        "Read the result",
+        "1 kg = 2.20462 lb."
+      ],
+      [
+        "Use the table",
+        "Common weights from 1 to 100 kg."
+      ]
+    ],
+    "cm-to-inches": [
+      [
+        "Enter centimeters",
+        "Or type inches on the right."
+      ],
+      [
+        "Read the result",
+        "1 inch is exactly 2.54 cm."
+      ],
+      [
+        "Use the table",
+        "Common lengths at a glance."
+      ]
+    ],
+    "celsius-to-fahrenheit": [
+      [
+        "Enter °C",
+        "Negative values work too."
+      ],
+      [
+        "Read °F",
+        "°F = °C × 9/5 + 32."
+      ],
+      [
+        "Switch to Kelvin",
+        "Pick K from the unit list."
+      ]
+    ],
+    "km-to-miles": [
+      [
+        "Enter kilometers",
+        "Or type miles on the right."
+      ],
+      [
+        "Read the result",
+        "1 km = 0.621371 mi."
+      ],
+      [
+        "Check race distances",
+        "5K, 10K and more in the table."
+      ]
+    ],
+    "tip-calculator": [
+      [
+        "Enter the bill",
+        "Before or after tax, as you prefer."
+      ],
+      [
+        "Pick a tip and party size",
+        "Presets from 10% to 25%."
+      ],
+      [
+        "Read each share",
+        "Round up per person if you like."
+      ]
+    ],
+    "discount-calculator": [
+      [
+        "Enter the price",
+        "The original price before any discount."
+      ],
+      [
+        "Add the discount",
+        "Plus an extra discount and sales tax if needed."
+      ],
+      [
+        "See the final price",
+        "And how much you save."
+      ]
+    ],
+    "compound-interest-calculator": [
+      [
+        "Enter the starting amount",
+        "Plus a monthly contribution."
+      ],
+      [
+        "Set rate, years and compounding",
+        "Yearly to daily."
+      ],
+      [
+        "Read the growth",
+        "Final balance and a year-by-year table."
+      ]
+    ],
+    "calorie-calculator": [
+      [
+        "Enter your details",
+        "Sex, age, weight and height."
+      ],
+      [
+        "Choose your activity",
+        "From sedentary to very active."
+      ],
+      [
+        "Read your targets",
+        "Maintain, lose or gain weight."
+      ]
+    ],
+    "salary-calculator": [
+      [
+        "Enter your pay",
+        "Per hour, day, week, month or year."
+      ],
+      [
+        "Set your hours",
+        "Hours per week and paid weeks."
+      ],
+      [
+        "Compare every period",
+        "Hourly to yearly side by side."
+      ]
+    ],
+    "roman-numeral-converter": [
+      [
+        "Type a number",
+        "From 1 to 3999."
+      ],
+      [
+        "Or type a numeral",
+        "Like MMXXVI or XLII."
+      ],
+      [
+        "Read the conversion",
+        "Both boxes stay in sync."
+      ]
+    ],
+    "bmr-calculator": [
+      [
+        "Enter sex and age",
+        "BMR changes with both."
+      ],
+      [
+        "Enter weight and height",
+        "In kilograms and centimeters."
+      ],
+      [
+        "Read your BMR",
+        "Plus daily needs for each activity level."
+      ]
+    ],
+    "hourly-to-salary-calculator": [
+      [
+        "Enter your hourly wage",
+        "Before tax."
+      ],
+      [
+        "Set hours and weeks",
+        "40 hours × 52 weeks by default."
+      ],
+      [
+        "Read yearly pay",
+        "Plus monthly, weekly and daily."
+      ]
+    ],
+    "color-palette-generator": [
+      [
+        "Drop an image or pick a color",
+        "Photos, logos and screenshots work."
+      ],
+      [
+        "Choose how many colors",
+        "From 2 to 12."
+      ],
+      [
+        "Copy the palette",
+        "HEX list, CSS variables or JSON."
+      ]
+    ],
+    "color-converter": [
+      [
+        "Enter any color",
+        "HEX, rgb() or hsl(), or use the picker."
+      ],
+      [
+        "See every format",
+        "HEX, RGB, HSL, HSV and CMYK."
+      ],
+      [
+        "Check contrast",
+        "Against white and black text."
+      ]
+    ],
+    "hex-to-rgb": [
+      [
+        "Paste a HEX code",
+        "#RGB, #RRGGBB or with alpha."
+      ],
+      [
+        "Read the RGB value",
+        "Shown first, ready for CSS."
+      ],
+      [
+        "Copy any format",
+        "HSL and CMYK are listed too."
+      ]
+    ],
+    "rgb-to-hex": [
+      [
+        "Enter RGB values",
+        "rgb(255, 90, 78) or just 255, 90, 78."
+      ],
+      [
+        "Read the HEX code",
+        "Shown first, in uppercase."
+      ],
+      [
+        "Copy it",
+        "Or pick a new color with the picker."
+      ]
+    ],
+    "favicon-generator": [
+      [
+        "Start from a logo or a letter",
+        "PNG, SVG or JPG, or type 1–2 letters or an emoji."
+      ],
+      [
+        "Adjust colors and shape",
+        "Square or circle background."
+      ],
+      [
+        "Download the package",
+        "ICO, PNGs, manifest and HTML tags in one zip."
+      ]
+    ],
+    "image-to-base64": [
+      [
+        "Drop an image",
+        "PNG, JPG, SVG, WebP or GIF."
+      ],
+      [
+        "Choose the output",
+        "Data URI, raw Base64, CSS or HTML."
+      ],
+      [
+        "Copy the code",
+        "Or download it as a text file."
+      ]
+    ],
+    "svg-optimizer": [
+      [
+        "Open or paste an SVG",
+        "From Illustrator, Inkscape, Figma or Sketch."
+      ],
+      [
+        "Pick what to remove",
+        "Comments, metadata, editor data, scripts and long decimals."
+      ],
+      [
+        "Download the smaller SVG",
+        "Compare sizes and the preview first."
+      ]
+    ],
+    "meme-generator": [
+      [
+        "Add a picture",
+        "Or use the sample."
+      ],
+      [
+        "Write top and bottom text",
+        "Classic white Impact-style letters with a black outline."
+      ],
+      [
+        "Download PNG",
+        "Ready to post."
+      ]
+    ],
+    "tic-tac-toe": [
+      [
+        "Pick an opponent",
+        "Unbeatable computer, easy computer or a friend."
+      ],
+      [
+        "Get three in a row",
+        "Across, down or diagonally."
+      ],
+      [
+        "Play again",
+        "The score is kept until you leave."
+      ]
+    ],
+    "memory-game": [
+      [
+        "Choose the size",
+        "6, 8 or 12 pairs."
+      ],
+      [
+        "Flip two cards",
+        "Matching pairs stay face up."
+      ],
+      [
+        "Clear the board",
+        "In as few moves as you can."
+      ]
+    ],
+    "reaction-time-test": [
+      [
+        "Click to start",
+        "The box turns red."
+      ],
+      [
+        "Wait for green",
+        "Clicking early resets the try."
+      ],
+      [
+        "Click as fast as you can",
+        "Your average of the last 5 tries is shown."
+      ]
+    ],
+    "color-blind-test": [
+      [
+        "Look at each plate",
+        "Use a bright screen in normal light."
+      ],
+      [
+        "Type the number you see",
+        "Or choose I can't see a number."
+      ],
+      [
+        "Read your result",
+        "Eight plates, red-green and blue-yellow."
+      ]
+    ],
+    "gamepad-tester": [
+      [
+        "Connect your controller",
+        "By USB or Bluetooth."
+      ],
+      [
+        "Press any button",
+        "The browser shows the pad after the first press."
+      ],
+      [
+        "Check every input",
+        "Buttons, triggers, sticks and vibration."
+      ]
+    ],
+    "what-is-my-ip": [
+      [
+        "Press the button",
+        "Nothing is checked until you do."
+      ],
+      [
+        "See your public IP",
+        "IPv4 or IPv6, as websites see it."
+      ],
+      [
+        "Copy it",
+        "For support tickets, allowlists or setup."
+      ]
+    ],
+    "internet-speed-test": [
+      [
+        "Press Start",
+        "Close other downloads first."
+      ],
+      [
+        "Wait about 30 seconds",
+        "Download, upload and latency are measured."
+      ],
+      [
+        "Read your results",
+        "Including latency while the line is busy."
+      ]
+    ],
+    "dns-lookup": [
+      [
+        "Enter a domain",
+        "Or paste a full URL."
+      ],
+      [
+        "Choose record types",
+        "A, AAAA, CNAME, MX, NS, TXT, SOA or CAA."
+      ],
+      [
+        "Read the records",
+        "With TTL and status for each type."
+      ]
+    ],
+    "currency-converter": [
+      [
+        "Enter an amount",
+        "Choose the two currencies."
+      ],
+      [
+        "Press Convert",
+        "The day's reference rate is loaded."
+      ],
+      [
+        "Read the result",
+        "With the rate in both directions and its date."
+      ]
+    ]
+  },
+  "tools": {
+    "2048": {
+      "title": "Free Play 2048 Online",
+      "metaTitle": "Play 2048 Online Free: No Download",
+      "description": "Slide the tiles and merge matching numbers to reach 2048. Use the on-screen arrows; no account and no download."
+    },
+    "vectorizer": {
+      "title": "Free Vectorize Image",
+      "metaTitle": "Vectorize Image Online Free: Convert to SVG",
+      "description": "Turn a PNG or JPG into a scalable SVG vector in your browser. Logos, icons and flat artwork trace best. No upload, no sign-up and no watermark."
+    },
+    "image-converter": {
+      "title": "Free Image Converter",
+      "metaTitle": "Image Converter: JPG, PNG, WebP, GIF, BMP Free",
+      "description": "Convert images to JPG, PNG, WebP, GIF or BMP right in your browser. Set the quality, convert a batch, and download without a watermark or upload."
+    },
+    "photo-editor": {
+      "title": "Free Photo Editor",
+      "metaTitle": "Photo Editor Online Free: Filters and Text",
+      "description": "Edit photos online with 30 filter looks, a brightness control and a text caption. Everything runs in your browser and saves as PNG with no watermark."
+    },
+    "image-cropper": {
+      "title": "Free Crop Image",
+      "metaTitle": "Crop Image Online Free: 1:1, 4:5, 16:9",
+      "description": "Crop an image freely or to a fixed ratio such as 1:1, 4:5, 3:2 or 16:9. Type exact pixel values if you need them, then download only the framed area."
+    },
+    "exif-remover": {
+      "title": "Free EXIF Remover",
+      "metaTitle": "Remove EXIF Data from Photos Online Free",
+      "description": "Strip EXIF, GPS location and camera data from JPG and PNG photos before you share them. See which tags were found, then download a clean copy."
+    },
+    "image-compressor": {
+      "title": "Free Image Compressor",
+      "metaTitle": "Compress Images Online Free: JPG, PNG, WebP",
+      "description": "Reduce image file size in your browser by choosing the format and quality. Large JPGs are also scaled down to 1600 or 2560 px. Batches work and nothing is uploaded."
+    },
+    "image-resizer": {
+      "title": "Free Resize Image",
+      "metaTitle": "Resize Image Online Free: Pixels or Presets",
+      "description": "Resize an image to exact pixels or a preset for Instagram, Stories, YouTube or HD. It runs in your browser, handles a batch, and adds no watermark."
+    },
+    "image-upscaler": {
+      "title": "Free AI Image Upscaler",
+      "metaTitle": "AI Image Upscaler Free: 2x, 3x, 4x, No Sign-Up",
+      "description": "Upscale images 2×, 3× or 4× with ESRGAN models running in your browser. Pick Fast, Balanced or Best; the largest model is about 29 MB. Inputs over 2048 px are scaled down first, and nothing is uploaded."
+    },
+    "photo-collage-maker": {
+      "title": "Free Photo Collage Maker",
+      "metaTitle": "Photo Collage Maker Free: Grid, No Sign-Up",
+      "description": "Combine two or more photos into a square 1080 px collage grid with an optional caption. It runs in your browser and saves a PNG without a watermark."
+    },
+    "logo-maker": {
+      "title": "Free Logo Maker",
+      "metaTitle": "Logo Maker Online Free: SVG, PNG and Favicon",
+      "description": "Make a simple text logo with a name, tagline, shape icon and two colors. Download SVG, PNG, 512 and 32 px favicons, and a 1200×630 social image."
+    },
+    "passport-photo-maker": {
+      "title": "Free Passport Photo Maker",
+      "metaTitle": "Passport Photo Maker Free: 2x2 in and 35x45 mm",
+      "description": "Crop a passport photo to US 2×2 in, China 33×48 mm, Schengen 35×45 mm or 50×50 mm. Download a 300 DPI photo and a 4×6 print sheet with six copies. Check your country's rules for background and head size."
+    },
+    "mockup-generator": {
+      "title": "Free Mockup Generator",
+      "metaTitle": "Mockup Generator Online Free: Phone, Laptop, Poster",
+      "description": "Place your design on a phone, laptop, poster, box or billboard mockup. Everything is composed in your browser and saved as a PNG."
+    },
+    "add-watermark": {
+      "title": "Free Add Watermark to Photo",
+      "metaTitle": "Add Watermark to Photos Online Free",
+      "description": "Add a tiled text watermark to photos with your own wording and opacity. Process a batch in your browser and download the marked copies."
+    },
+    "app-store-screenshot-generator": {
+      "title": "Free App Store Screenshot Generator",
+      "metaTitle": "App Store Screenshot Generator Free",
+      "description": "Turn one app screenshot into store images with a headline, background and device frame. Get iPhone 6.7 and 6.5 inch, iPad 12.9 inch, Android phone and Play feature graphic sizes in one ZIP."
+    },
+    "video-compressor": {
+      "title": "Free Video Compressor",
+      "metaTitle": "Compress Video Online Free: No Upload, No Watermark",
+      "description": "Make a video file smaller in your browser, with no upload and no watermark. The FFmpeg encoder resizes it to the width you set and saves an H.264 MP4."
+    },
+    "video-editor": {
+      "title": "Free Video Editor",
+      "metaTitle": "Video Editor Online Free: Join Clips",
+      "description": "Join video clips in order and add a title card, all in your browser. The export is a silent 640×360 MP4, made for quick drafts rather than final edits."
+    },
+    "video-converter": {
+      "title": "Free Video Converter",
+      "metaTitle": "Video Converter Online Free: MP4 and WebM",
+      "description": "Convert MOV, MKV, AVI and other video files to MP4 or WebM in your browser. Set the output width; FFmpeg runs on your device, so nothing is uploaded."
+    },
+    "lut-generator": {
+      "title": "Free LUT Generator",
+      "metaTitle": "Free LUT Generator: Download CUBE Files",
+      "description": "Download a 3D LUT in cube format from 12 presets such as Warm, Film, Teal and Mono. Preview it on a still, then load it in Premiere Pro, Resolve or Final Cut Pro."
+    },
+    "video-upscaler": {
+      "title": "Free Video Upscaler",
+      "metaTitle": "Video Upscaler Online Free: Short Preview",
+      "description": "Upscale the first 4 seconds of a video 2×, 3× or 4× with AI in your browser. It enlarges up to 12 frames at 4 fps and keeps the audio, so treat it as a preview."
+    },
+    "media-merger": {
+      "title": "Free Video Merger",
+      "metaTitle": "Merge Videos Online Free: Join Clips",
+      "description": "Join several video clips into one MP4 in your browser. The output is a silent 320×180 draft at 12 fps, good for checking the order before a full edit."
+    },
+    "audio-converter": {
+      "title": "Free Audio Converter",
+      "metaTitle": "Audio Converter Online Free: MP3, WAV, M4A, OGG",
+      "description": "Convert audio or video files to MP3, WAV, M4A or OGG in your browser. FFmpeg runs on your device, so the file is not uploaded and there is no sign-up."
+    },
+    "audio-trimmer": {
+      "title": "Free Audio Trimmer",
+      "metaTitle": "Trim Audio Online Free: Cut MP3 and WAV",
+      "description": "Cut an audio file to a start and end time in seconds and save it as MP3 or WAV. It runs in your browser with no upload."
+    },
+    "music-maker": {
+      "title": "Free Music Maker",
+      "metaTitle": "Music Maker Online Free: 16-Step Beat",
+      "description": "Program a 16-step loop with kick, snare, hat and bass, set the BPM and play it back. Download a WAV or record one loop as WebM, all in your browser."
+    },
+    "sheet-music-maker": {
+      "title": "Free Sheet Music Maker",
+      "metaTitle": "Sheet Music Maker: Notes to MusicXML Free",
+      "description": "Type note names such as C4 E4 G4, play them back and export MusicXML. It is a quick melody sketchpad; the SVG shows note names on a staff, not engraved notation."
+    },
+    "online-piano": {
+      "title": "Free Online Piano",
+      "metaTitle": "Online Piano: Play with Your Computer Keyboard",
+      "description": "Play seven white piano keys with your mouse or the A to J keys on your keyboard. Shift between octaves 2 and 6 and download a WAV of the scale."
+    },
+    "online-guitar": {
+      "title": "Free Online Guitar",
+      "metaTitle": "Online Guitar Chords: Strum and Hear Free",
+      "description": "Strum eight common chords, C, G, Am, F, D, Em, E and A, with a capo from 0 to 8. Download any chord as a WAV."
+    },
+    "video-to-gif": {
+      "title": "Free Video to GIF",
+      "metaTitle": "Video to GIF Converter Free: No Watermark",
+      "description": "Turn a video clip into a GIF in your browser, with your choice of width and frame rate. FFmpeg builds an optimized color palette, and nothing is uploaded."
+    },
+    "gif-maker": {
+      "title": "Free GIF Maker",
+      "metaTitle": "GIF Maker: Make a GIF from Images Free",
+      "description": "Make an animated GIF from photos in the order you add them. Set the frame delay and a caption; frames are 640×360 and the GIF has no watermark."
+    },
+    "subtitle-generator": {
+      "title": "Free Subtitle Generator",
+      "metaTitle": "Free Subtitle Generator: SRT and VTT, No Upload",
+      "description": "Generate subtitles from the first 30 seconds of a video with Whisper in your browser. Edit or add cues while it plays, then download SRT, VTT or TXT."
+    },
+    "screen-recorder": {
+      "title": "Free Screen Recorder",
+      "metaTitle": "Screen Recorder Online Free: No Watermark",
+      "description": "Record your screen, a window or a browser tab with optional microphone narration. The recording saves as WebM, with no time limit and no watermark."
+    },
+    "green-screen-video": {
+      "title": "Free Green Screen Remover",
+      "metaTitle": "Green Screen Remover: Key a Frame to PNG",
+      "description": "Remove a green or blue screen from a photo or a video frame in your browser. Adjust the key color and similarity, then download a transparent PNG."
+    },
+    "voice-recorder": {
+      "title": "Free Voice Recorder",
+      "metaTitle": "Voice Recorder Online Free: No Sign-Up",
+      "description": "Record your voice from the microphone and download it as a WebM file. A level bar shows the input, and the recording stays on your device."
+    },
+    "teleprompter": {
+      "title": "Free Online Teleprompter",
+      "metaTitle": "Online Teleprompter Free: Mirror Mode",
+      "description": "Paste your script and let it scroll at the speed you set, with mirror mode for glass rigs. Press space to start and pause. Nothing is saved or uploaded."
+    },
+    "pdf-editor": {
+      "title": "Free PDF Editor",
+      "metaTitle": "PDF Editor Online Free: Add Text and a Signature",
+      "description": "Add a line of text and a drawn signature to any page of a PDF. It runs in your browser, so the file is not uploaded. Existing text in the PDF cannot be edited."
+    },
+    "merge-pdf": {
+      "title": "Free Merge PDF",
+      "metaTitle": "Merge PDF Files Online Free: No Upload",
+      "description": "Combine several PDF files into one, in the order you add them. Pages are copied as they are in your browser, so quality stays the same and nothing is uploaded."
+    },
+    "compress-pdf": {
+      "title": "Free Compress PDF",
+      "metaTitle": "Compress PDF Online Free: Reduce PDF Size",
+      "description": "Reduce PDF file size by re-rendering each page as a compressed image in your browser. Text will no longer be selectable, so keep the original for editing."
+    },
+    "pdf-to-jpg": {
+      "title": "Free PDF to JPG",
+      "metaTitle": "PDF to JPG Converter Free: Every Page",
+      "description": "Convert every page of a PDF to a JPG image in your browser. Each page downloads as its own file at 1.5× scale, with no upload."
+    },
+    "image-to-pdf": {
+      "title": "Free Image to PDF",
+      "metaTitle": "Image to PDF Converter Free: JPG and PNG",
+      "description": "Combine JPG and PNG images into one PDF, one image per page at its original size. It runs in your browser, so the photos stay on your device."
+    },
+    "split-pdf": {
+      "title": "Free Split PDF",
+      "metaTitle": "Split PDF Online Free: Extract Pages",
+      "description": "Split a PDF into single pages or extract a range such as 1-3,5. Each selected page downloads as its own PDF, processed in your browser."
+    },
+    "rotate-pdf": {
+      "title": "Free Rotate PDF",
+      "metaTitle": "Rotate PDF Pages Online Free",
+      "description": "Rotate every page of a PDF 90° clockwise and save it in your browser. Run it again for 180° or 270°. The file is not uploaded."
+    },
+    "sign-pdf": {
+      "title": "Free Sign PDF",
+      "metaTitle": "Sign PDF Online Free: Draw Your Signature",
+      "description": "Draw your signature and place it on a PDF page, with an optional line of text. The signature goes near the bottom left of the page you choose, and the file stays on your device."
+    },
+    "whiteboard": {
+      "title": "Free Online Whiteboard",
+      "metaTitle": "Online Whiteboard Free: Draw and Save PNG",
+      "description": "Sketch freehand on a blank whiteboard in any ink color, with a mouse, pen or finger. Export the board as a PNG; nothing is stored on a server."
+    },
+    "mind-map": {
+      "title": "Free Mind Map Maker",
+      "metaTitle": "Free Mind Map Maker: No Sign-Up",
+      "description": "Add branches around a central idea and drag them into place. Export the map as JSON; it stays in your browser and needs no account."
+    },
+    "sudoku": {
+      "title": "Free Play Sudoku Online",
+      "metaTitle": "Sudoku Online: Daily Puzzle, Free",
+      "description": "Play a daily Sudoku puzzle with conflict highlighting, hints and a solve button. No account and nothing to install."
+    },
+    "typing-test": {
+      "title": "Free Typing Test",
+      "metaTitle": "Typing Test Online: WPM and Accuracy",
+      "description": "Type a short passage and see your words per minute and accuracy when you finish. Three English passages are included, and nothing is recorded."
+    },
+    "glb-to-stl": {
+      "title": "Free GLB to STL",
+      "metaTitle": "GLB to STL Converter Free for 3D Printing",
+      "description": "Convert a GLB or glTF model to STL for 3D printing, right in your browser. Preview the mesh, check the triangle count, then download the STL."
+    },
+    "3d-model-viewer": {
+      "title": "Free 3D Model Viewer",
+      "metaTitle": "3D Model Viewer Online: STL, OBJ, GLB",
+      "description": "Open STL, OBJ, GLB, glTF, FBX or 3MF files in your browser and orbit around them. See the triangle count and save a PNG screenshot, with no upload."
+    },
+    "image-to-stl": {
+      "title": "Free Image to STL",
+      "metaTitle": "Image to STL Converter Free: Photo Relief",
+      "description": "Turn a photo into a 3D relief STL where brightness sets the height. Choose the width and height in millimeters; the height map is 80 columns wide, so bold images work best."
+    },
+    "image-to-dxf": {
+      "title": "Free Image to DXF",
+      "metaTitle": "Image to DXF Converter Free for Laser and CNC",
+      "description": "Trace a black and white image into closed DXF outlines for laser cutting or CNC. Set the threshold and preview the result; scale the drawing to size in your CAD app."
+    },
+    "dxf-viewer": {
+      "title": "Free DXF Viewer",
+      "metaTitle": "DXF Viewer Online Free: No Install",
+      "description": "Open a DXF file in your browser and preview its lines and polylines as SVG. No CAD software, no upload and no sign-up."
+    },
+    "sticker-maker": {
+      "title": "Free Sticker Maker",
+      "metaTitle": "Sticker Maker Free: Print PNG and Cut Line",
+      "description": "Add a white border and a dashed cut line around your artwork in your browser. Download a print PNG and an SVG cut rectangle."
+    },
+    "perler-bead-pattern-maker": {
+      "title": "Free Perler Bead Pattern Maker",
+      "metaTitle": "Perler Bead Pattern Maker: Photo to Pattern",
+      "description": "Turn a picture into a numbered bead pattern 8 to 80 beads wide. The page lists how many beads of each color you need, and the chart downloads as PNG."
+    },
+    "laser-engraving": {
+      "title": "Free Photo to Laser Engraving",
+      "metaTitle": "Photo to Laser Engraving Image: Free Dither",
+      "description": "Convert a photo into a dithered image for laser engraving. Set the width in millimeters and the DPI, then download a black and white PNG for LightBurn or your laser software."
+    },
+    "qr-code-generator": {
+      "title": "Free QR Code Generator",
+      "metaTitle": "QR Code Generator Free: URL, Wi-Fi, No Expiry",
+      "description": "Make a QR code for a link, text, Wi-Fi network or contact name, in any color. Download a PNG; the code is static, so it never expires and has no tracking."
+    },
+    "barcode-generator": {
+      "title": "Free Barcode Generator",
+      "metaTitle": "Barcode Generator Free: Code 128, EAN, UPC",
+      "description": "Create Code 128, EAN-13, UPC-A, ITF-14, Data Matrix or Code 39 barcodes in your browser. Download a sharp SVG for labels and packaging."
+    },
+    "password-generator": {
+      "title": "Free Password Generator",
+      "metaTitle": "Password Generator Online: Random and Secure",
+      "description": "Generate a strong random password from 8 to 64 characters, or a four-word passphrase. It uses your browser's crypto API, and nothing is saved or sent."
+    },
+    "font-generator": {
+      "title": "Free Font Generator",
+      "metaTitle": "Fancy Font Generator: Copy and Paste Text",
+      "description": "Turn your text into fancy Unicode fonts you can copy and paste. Click any style to copy it into Instagram, TikTok or Discord; no font install needed."
+    },
+    "word-counter": {
+      "title": "Free Word Counter",
+      "metaTitle": "Word Counter: Words, Characters, Reading Time",
+      "description": "Count words, characters and sentences as you type, with an estimated reading time. See your length against X, Instagram and meta description limits."
+    },
+    "json-formatter": {
+      "title": "Free JSON Formatter",
+      "metaTitle": "JSON Formatter and Validator Online Free",
+      "description": "Beautify, minify or sort JSON keys in your browser, with errors shown by line and column. Large integers keep their exact digits."
+    },
+    "png-to-svg": {
+      "title": "Free PNG to SVG",
+      "metaTitle": "PNG to SVG Converter Free: Vectorize Online",
+      "description": "Convert a PNG to an SVG vector in your browser, ready to scale and edit. Logos, icons and line art trace best. No upload and no watermark."
+    },
+    "jpg-to-svg": {
+      "title": "Free JPG to SVG",
+      "metaTitle": "JPG to SVG Converter Free: No Upload",
+      "description": "Convert a JPG to an SVG vector in your browser. Flat graphics and logos trace more cleanly than detailed photos. Download the file with no sign-up."
+    },
+    "image-to-svg": {
+      "title": "Free Image to SVG",
+      "metaTitle": "Image to SVG Converter Free: Trace to Vector",
+      "description": "Trace a PNG, JPG or WebP image into SVG paths in your browser. Images are traced at up to 800 px, so simple artwork gives the cleanest result."
+    },
+    "image-editor": {
+      "title": "Free Image Editor",
+      "metaTitle": "Image Editor Online Free: No Sign-Up",
+      "description": "Apply 30 filter looks, adjust brightness and add a caption to any image. It runs in your browser and saves a PNG without a watermark."
+    },
+    "heart-photo-collage": {
+      "title": "Free Heart Photo Collage",
+      "metaTitle": "Heart Photo Collage Maker Free",
+      "description": "Arrange your photos in a grid cut into a heart shape, with an optional caption. Download a 1080 px square PNG for a card, post or gift."
+    },
+    "instagram-story-collage": {
+      "title": "Free Instagram Story Collage",
+      "metaTitle": "Instagram Story Collage Maker: 1080×1920",
+      "description": "Combine photos into a 1080×1920 collage sized for Instagram Stories. Add an optional caption; everything happens in your browser."
+    },
+    "photo-grid-maker": {
+      "title": "Free Photo Grid Maker",
+      "metaTitle": "Photo Grid Maker Free: Square Collage",
+      "description": "Place photos in an even square grid at 1080×1080 with an optional caption. Download a PNG ready for Instagram or print."
+    },
+    "visa-photo-maker": {
+      "title": "Free Visa Photo Maker",
+      "metaTitle": "Visa Photo Maker Free: 50×50 and 35×45 mm",
+      "description": "Crop a visa photo to 50×50 mm, 35×45 mm, 33×48 mm or 2×2 in and save it at 300 DPI. A 4×6 print sheet with six copies is included. Check your consulate's rules before you print."
+    },
+    "trim-video": {
+      "title": "Free Trim Video",
+      "metaTitle": "Trim Video Online Free: Cut Start and End",
+      "description": "Cut a video to the start and end seconds you choose and save it as MP4. FFmpeg runs in your browser, so the clip is not uploaded."
+    },
+    "crop-video": {
+      "title": "Free Crop Video",
+      "metaTitle": "Crop Video Online Free: Center Crop to MP4",
+      "description": "Crop the edges off a video with a center crop that keeps 80% of the width and height. It runs in your browser and saves an MP4."
+    },
+    "video-speed-changer": {
+      "title": "Free Video Speed Changer",
+      "metaTitle": "Change Video Speed Online: 0.5x to 2x Free",
+      "description": "Speed up or slow down a video, from half speed to double speed, in your browser. The audio is time-stretched to match, and the result saves as MP4."
+    },
+    "mp4-to-mp3": {
+      "title": "Free MP4 to MP3",
+      "metaTitle": "MP4 to MP3 Converter Free: No Upload",
+      "description": "Extract the audio from an MP4 and save it as MP3 or WAV. FFmpeg runs in your browser, so the video stays on your device."
+    },
+    "video-to-mp3": {
+      "title": "Free Video to MP3",
+      "metaTitle": "Video to MP3 Converter Free: Extract Audio",
+      "description": "Pull the soundtrack out of an MP4, MOV, WebM or other video and save MP3 or WAV. Conversion runs in your browser with no upload or sign-up."
+    },
+    "remove-audio-from-video": {
+      "title": "Free Remove Audio from Video",
+      "metaTitle": "Remove Audio from Video Online Free: Mute",
+      "description": "Mute a video by removing its audio track, then download a silent MP4. FFmpeg does the work in your browser, so the file is not uploaded."
+    },
+    "mp4-to-gif": {
+      "title": "Free MP4 to GIF",
+      "metaTitle": "MP4 to GIF Converter Free: No Watermark",
+      "description": "Convert an MP4 clip to an animated GIF with your choice of width and frame rate. A palette built from the clip keeps colors clean, all in your browser."
+    },
+    "boomerang-gif-maker": {
+      "title": "Free Boomerang GIF Maker",
+      "metaTitle": "Boomerang GIF Maker: Loop Forward and Back",
+      "description": "Turn a short video into a boomerang GIF that plays forward and then in reverse. Set the width and frame rate; it runs in your browser."
+    },
+    "slideshow-maker": {
+      "title": "Free Slideshow Maker",
+      "metaTitle": "Slideshow Maker Online Free: Make a GIF",
+      "description": "Turn photos into an animated GIF slideshow with a delay per slide and an optional caption. Slides are 640×360 and nothing is uploaded."
+    },
+    "add-subtitles-to-video": {
+      "title": "Free Add Subtitles to Video",
+      "metaTitle": "Add Subtitles to Video: Make SRT Free",
+      "description": "Make a subtitle file for your video, then load it in your player, editor or YouTube. Whisper transcribes the first 30 seconds in your browser, or you can type and time each line. Download SRT or VTT; the subtitles are not burned into the video."
+    },
+    "video-to-text": {
+      "title": "Free Video to Text",
+      "metaTitle": "Video to Text: Transcribe Video Free",
+      "description": "Transcribe speech from a video into text with Whisper running in your browser. It reads the first 30 seconds; download the transcript as TXT, SRT or VTT."
+    },
+    "speech-to-text": {
+      "title": "Free Speech to Text",
+      "metaTitle": "Speech to Text Online Free with Whisper",
+      "description": "Turn a voice recording into text with Whisper in your browser. You can also dictate with the browser's speech recognizer, which may be processed by your browser vendor. File transcription covers the first 30 seconds."
+    },
+    "audio-to-text": {
+      "title": "Free Audio to Text",
+      "metaTitle": "Audio to Text Converter Free: Transcribe MP3",
+      "description": "Transcribe MP3, WAV or M4A audio to text with Whisper base or small in your browser. Only the first 30 seconds are read, and the file is not uploaded."
+    },
+    "chroma-key": {
+      "title": "Free Chroma Key",
+      "metaTitle": "Chroma Key Online: Remove Green Screen Free",
+      "description": "Key out green, blue or any solid color from a photo or a video frame. Tune the similarity and download a transparent PNG, processed in your browser."
+    },
+    "pdf-to-png": {
+      "title": "Free PDF to PNG",
+      "metaTitle": "PDF to PNG Converter Free: Every Page",
+      "description": "Convert each PDF page to a PNG image in your browser. Pages render at 1.5× scale and download one by one, with no upload."
+    },
+    "jpg-to-pdf": {
+      "title": "Free JPG to PDF",
+      "metaTitle": "JPG to PDF Converter Free: Combine Photos",
+      "description": "Combine JPG photos into one PDF, one photo per page in the order you add them. It runs in your browser, so nothing is uploaded."
+    },
+    "png-to-pdf": {
+      "title": "Free PNG to PDF",
+      "metaTitle": "PNG to PDF Converter Free: No Upload",
+      "description": "Turn PNG images into a single PDF, one image per page at full resolution. Conversion happens in your browser with no sign-up."
+    },
+    "stl-to-3mf": {
+      "title": "Free STL to 3MF",
+      "metaTitle": "STL to 3MF Converter Free Online",
+      "description": "Convert an STL mesh to 3MF for Bambu Studio, PrusaSlicer or Cura. Preview the model and its triangle count in your browser, then download."
+    },
+    "3mf-to-stl": {
+      "title": "Free 3MF to STL",
+      "metaTitle": "3MF to STL Converter Free: No Upload",
+      "description": "Convert a 3MF project to a plain STL mesh in your browser. Colors and print settings are dropped; the geometry is kept."
+    },
+    "obj-to-stl": {
+      "title": "Free OBJ to STL",
+      "metaTitle": "OBJ to STL Converter Free for 3D Printing",
+      "description": "Convert an OBJ model to STL for slicing and 3D printing. Preview it and check the triangle count in your browser before you download."
+    },
+    "stl-to-obj": {
+      "title": "Free STL to OBJ",
+      "metaTitle": "STL to OBJ Converter Free Online",
+      "description": "Convert an STL file to OBJ for Blender, game engines or other 3D apps. The conversion runs in your browser with no upload."
+    },
+    "glb-to-obj": {
+      "title": "Free GLB to OBJ",
+      "metaTitle": "GLB to OBJ Converter Free: glTF to OBJ",
+      "description": "Convert a GLB or glTF model to OBJ geometry in your browser. The mesh is kept; materials and animation are not carried over."
+    },
+    "fbx-to-stl": {
+      "title": "Free FBX to STL",
+      "metaTitle": "FBX to STL Converter Free Online",
+      "description": "Convert an FBX model to STL for 3D printing, right in your browser. Preview the mesh first, then download a single STL."
+    },
+    "obj-to-glb": {
+      "title": "Free OBJ to GLB",
+      "metaTitle": "OBJ to GLB Converter Free for Web and AR",
+      "description": "Convert an OBJ model to a binary GLB for web viewers, AR and game engines. The export runs in your browser with three.js."
+    },
+    "fbx-to-glb": {
+      "title": "Free FBX to GLB",
+      "metaTitle": "FBX to GLB Converter Free Online",
+      "description": "Convert an FBX model to GLB in your browser for web, AR and game engines. Preview the model before you export it."
+    },
+    "step-to-stl": {
+      "title": "Free STEP to STL",
+      "metaTitle": "STEP to STL: Rough Mesh in Your Browser",
+      "description": "Open a STEP file and get a rough STL built from its point coordinates. This is not a full CAD conversion, so export STL from your CAD app when you need a print-ready mesh."
+    },
+    "step-to-obj": {
+      "title": "Free STEP to OBJ",
+      "metaTitle": "STEP to OBJ: Rough Point Mesh Free",
+      "description": "Read the points in a STEP file and save a rough OBJ in your browser. It does not tessellate CAD surfaces, so use your CAD app for production meshes."
+    },
+    "stl-viewer": {
+      "title": "Free STL Viewer",
+      "metaTitle": "STL Viewer Online Free: No Upload",
+      "description": "Open an STL file in your browser to orbit, zoom and check the triangle count. Save a PNG screenshot with no software, sign-up or upload."
+    },
+    "glb-viewer": {
+      "title": "Free GLB Viewer",
+      "metaTitle": "GLB Viewer Online Free: View glTF Models",
+      "description": "View a GLB or glTF model in your browser with orbit and zoom controls. See the triangle count and save a screenshot without uploading the file."
+    },
+    "obj-viewer": {
+      "title": "Free OBJ Viewer",
+      "metaTitle": "OBJ Viewer Online Free: No Install",
+      "description": "Open an OBJ file in your browser and inspect it from every angle. The triangle count is shown and you can save a PNG screenshot."
+    },
+    "gltf-viewer": {
+      "title": "Free glTF Viewer",
+      "metaTitle": "glTF Viewer Online Free: GLB and glTF",
+      "description": "Preview glTF and GLB models in your browser with orbit controls. Use a GLB or an embedded glTF; files that point to separate textures may not load."
+    },
+    "step-viewer": {
+      "title": "Free STEP Viewer",
+      "metaTitle": "STEP Viewer Online: Rough Point Preview",
+      "description": "Get a quick look at the points in a STEP file in your browser. It is a rough preview, not a CAD renderer, so surfaces may look broken."
+    },
+    "lithophane-maker": {
+      "title": "Free Lithophane Maker",
+      "metaTitle": "Lithophane Maker Free: Photo to STL",
+      "description": "Turn a photo into a lithophane STL that shows the picture when lit from behind. Set the width and thickness in millimeters and download it for your slicer."
+    },
+    "png-to-stl": {
+      "title": "Free PNG to STL",
+      "metaTitle": "PNG to STL Converter Free: Image Relief",
+      "description": "Convert a PNG into a raised relief STL where brightness sets the height. Choose the size in millimeters; the 80-column height map suits bold, simple images."
+    },
+    "png-to-dxf": {
+      "title": "Free PNG to DXF",
+      "metaTitle": "PNG to DXF Converter Free for Laser Cutting",
+      "description": "Convert a PNG logo or silhouette into closed DXF outlines for laser cutting and CNC. Adjust the threshold and download in your browser."
+    },
+    "jpg-to-dxf": {
+      "title": "Free JPG to DXF",
+      "metaTitle": "JPG to DXF Converter Free: Trace Outlines",
+      "description": "Trace a JPG into closed DXF polylines for laser, plasma or CNC cutting. High-contrast images give the cleanest outlines, and nothing is uploaded."
+    },
+    "svg-to-dxf": {
+      "title": "Free SVG to DXF",
+      "metaTitle": "SVG to DXF: Convert SVG Lines Free",
+      "description": "Convert the straight line elements in an SVG into DXF lines in your browser. Paths and curves are not converted yet, so this suits simple line drawings."
+    },
+    "text-to-dxf": {
+      "title": "Free Text to DXF",
+      "metaTitle": "Text to DXF Generator: Letters for Laser",
+      "description": "Type a word and get closed DXF outlines of the letters for laser cutting or CNC. The text is traced in a bold sans-serif font in your browser."
+    },
+    "dxf-to-svg": {
+      "title": "Free DXF to SVG",
+      "metaTitle": "DXF to SVG Converter Free: No Upload",
+      "description": "Convert DXF lines and polylines to SVG in your browser. Open the result in a browser, Illustrator or Inkscape; nothing is uploaded."
+    },
+    "dxf-to-pdf": {
+      "title": "Free DXF to PDF",
+      "metaTitle": "DXF to PDF: Preview and Entity Summary",
+      "description": "Preview a DXF in your browser and save a one-page PDF summary with its entity count. The PDF does not contain the drawing itself; use DXF to SVG for that."
+    },
+    "print-then-cut": {
+      "title": "Free Print Then Cut",
+      "metaTitle": "Print Then Cut File Maker Free",
+      "description": "Prepare artwork for print then cut with a border, cut line and registration dots. Download a print PNG and an SVG cut rectangle, made in your browser."
+    },
+    "pixel-art-converter": {
+      "title": "Free Pixel Art Converter",
+      "metaTitle": "Pixel Art Converter: Image to Pixel Art Free",
+      "description": "Turn a photo into pixel art on a grid 8 to 80 pixels wide with a fixed color palette. Download the PNG; the page lists how many pixels use each color."
+    },
+    "cross-stitch-pattern-generator": {
+      "title": "Free Cross Stitch Pattern Generator",
+      "metaTitle": "Cross Stitch Pattern Maker: Photo to Chart",
+      "description": "Turn a picture into a numbered cross stitch chart 8 to 80 stitches wide. Color counts are listed on the page and the chart downloads as PNG. Colors come from a fixed palette, not DMC floss numbers."
+    },
+    "diamond-painting-pattern-generator": {
+      "title": "Free Diamond Painting Pattern Generator",
+      "metaTitle": "Diamond Painting Pattern Maker: Photo to Chart",
+      "description": "Turn a photo into a numbered diamond painting chart 8 to 80 drills wide. See the drill count for each color and download the chart as PNG. Colors come from a fixed palette, not DMC numbers."
+    },
+    "knitting-chart-generator": {
+      "title": "Free Knitting Chart Generator",
+      "metaTitle": "Knitting Chart Maker: Image to Colorwork Chart",
+      "description": "Turn a picture into a numbered colorwork knitting chart, 24 stitches wide by default. Change the width from 8 to 80 and download the chart as PNG."
+    },
+    "quilt-pattern-generator": {
+      "title": "Free Quilt Pattern Generator",
+      "metaTitle": "Quilt Pattern Maker: Photo to Block Grid",
+      "description": "Turn an image into a pixel quilt layout of numbered color blocks. It is 12 blocks wide by default; see how many blocks of each color you need and download the PNG."
+    },
+    "dither-image": {
+      "title": "Free Dither Image",
+      "metaTitle": "Dither Image Online: Floyd-Steinberg Free",
+      "description": "Apply Floyd-Steinberg dithering to turn any image into black and white dots. Use it for retro art, e-ink screens or laser engraving; it runs in your browser."
+    },
+    "upc-barcode-generator": {
+      "title": "Free UPC Barcode Generator",
+      "metaTitle": "UPC Barcode Generator Free: UPC-A SVG",
+      "description": "Generate a UPC-A barcode from 11 or 12 digits and download a sharp SVG. The check digit is added if you leave it off. For retail products, use a number issued by GS1."
+    },
+    "ean-13-barcode-generator": {
+      "title": "Free EAN-13 Barcode Generator",
+      "metaTitle": "EAN-13 Barcode Generator Free: SVG Download",
+      "description": "Generate an EAN-13 barcode from 12 or 13 digits, with the check digit calculated for you. Download an SVG; for retail, use a number issued by GS1."
+    },
+    "cursive-font-generator": {
+      "title": "Free Cursive Text Generator",
+      "metaTitle": "Cursive Text Generator: Copy and Paste",
+      "description": "Turn text into cursive and script Unicode letters you can copy and paste. Use them in bios, captions and usernames; click a style to copy it."
+    },
+    "bold-text-generator": {
+      "title": "Free Bold Text Generator",
+      "metaTitle": "Bold Text Generator: Copy and Paste Bold Font",
+      "description": "Make bold Unicode text for posts that don't allow formatting. Click any bold style to copy it into Instagram, X, Facebook or LinkedIn. Some screen readers read these letters poorly, so use them sparingly."
+    },
+    "tuner": {
+      "title": "Free Online Tuner",
+      "metaTitle": "Online Tuner: A440 Reference Tone Free",
+      "description": "Play an A4 reference tone at 440 Hz and tune your instrument by ear. This tuner does not listen to your microphone; it plays the pitch for you to match."
+    },
+    "metronome": {
+      "title": "Free Online Metronome",
+      "metaTitle": "Online Metronome Free: Set Any BPM",
+      "description": "Keep time with a click at any BPM, with an accent on the first of every four beats. It runs in your browser with nothing to install."
+    },
+    "white-noise": {
+      "title": "Free White Noise Generator",
+      "metaTitle": "White Noise Generator: Free WAV Download",
+      "description": "Play a burst of white noise and download a one-second WAV. Loop it in any audio player or editor; it is generated in your browser."
+    },
+    "text-to-speech": {
+      "title": "Free Text to Speech",
+      "metaTitle": "Text to Speech Online Free: Read Text Aloud",
+      "description": "Paste text and hear it read aloud with the voices built into your browser. It is free with no sign-up; audio plays on the page and is not saved as a file."
+    },
+    "loudness-meter": {
+      "title": "Free Loudness Meter",
+      "metaTitle": "Loudness Meter Online: Check LUFS Free",
+      "description": "Measure the integrated loudness of an audio file in LUFS, right in your browser. Compare it with streaming targets such as -14 LUFS before you publish."
+    },
+    "lufs-meter": {
+      "title": "Free LUFS Meter",
+      "metaTitle": "LUFS Meter Online Free: Integrated Loudness",
+      "description": "Drop a song or voice-over to read its integrated LUFS value in your browser. Check a mix against Spotify, YouTube or podcast targets."
+    },
+    "normalize-audio": {
+      "title": "Free Normalize Audio",
+      "metaTitle": "Normalize Audio Online Free: Peak Normalize",
+      "description": "Normalize an audio file so its loudest peak sits at about -1 dBFS. See the gain applied and download the result as WAV; nothing is uploaded."
+    },
+    "add-page-numbers-to-pdf": {
+      "title": "Free Add Page Numbers to PDF",
+      "metaTitle": "Add Page Numbers to PDF Online Free",
+      "description": "Number every page of a PDF as 1 / N at the bottom center, in your browser. The page content is not re-rendered or changed."
+    },
+    "bates-numbering": {
+      "title": "Free Bates Numbering",
+      "metaTitle": "Bates Numbering for PDF: Free Online",
+      "description": "Stamp sequential Bates numbers such as ABC-0001 at the bottom left of every PDF page, with the prefix you choose. It runs in your browser."
+    },
+    "black-out-text-in-pdf": {
+      "title": "Free Black Out Text in PDF",
+      "metaTitle": "Black Out Text in PDF: Flattened, Free",
+      "description": "Cover a band across the middle of every PDF page with solid black. Each page is flattened to an image, so covered text can't be copied. To hide a specific word or number, use Redact PDF instead."
+    },
+    "redact-pdf": {
+      "title": "Free Redact PDF",
+      "metaTitle": "Redact PDF Free: Black Out Words and Flatten",
+      "description": "Type a word or number and every match in the PDF is covered with a black box. Pages are then flattened to images so the hidden text can't be copied. Pages with no match also get a black band, so check the result."
+    },
+    "remove-metadata-from-pdf": {
+      "title": "Free Remove PDF Metadata",
+      "metaTitle": "Remove Metadata from PDF Online Free",
+      "description": "Clear the title, author, subject, keywords, creator and producer fields from a PDF. It runs in your browser and leaves the pages untouched."
+    },
+    "unlock-pdf": {
+      "title": "Free Unlock PDF",
+      "metaTitle": "Unlock PDF: Remove a Password You Know",
+      "description": "Remove the password from a PDF when you know it, right in your browser. Pages are saved as images, so text in the unlocked copy is not selectable."
+    },
+    "pdf-reader": {
+      "title": "Free PDF Reader",
+      "metaTitle": "PDF Reader Online Free: Read PDF Text",
+      "description": "Open a PDF and read its text on the page, with a word count, without installing a reader. Only the text layer is shown, not the page layout or images."
+    },
+    "pdf-to-text": {
+      "title": "Free PDF to Text",
+      "metaTitle": "PDF to Text Converter Free: Extract Text",
+      "description": "Extract the text from a PDF and download it as a TXT file. It reads the PDF's text layer in your browser; scanned pages need OCR first."
+    },
+    "pdf-to-word": {
+      "title": "Free PDF to Word",
+      "metaTitle": "PDF to Word Free: Text to DOCX, No Upload",
+      "description": "Convert a PDF's text into an editable Word DOCX in your browser. Each page becomes a paragraph of plain text; layout, images and tables are not kept."
+    },
+    "pdf-to-excel": {
+      "title": "Free PDF to Excel",
+      "metaTitle": "PDF to Excel Converter Free: Text to XLSX",
+      "description": "Turn the text in a PDF into an Excel XLSX file in your browser. Each page becomes one row, so it suits short, simple tables rather than full reports."
+    },
+    "pdf-to-ppt": {
+      "title": "Free PDF to PowerPoint",
+      "metaTitle": "PDF to PowerPoint Free: One Slide per Page",
+      "description": "Convert a PDF to a PowerPoint PPTX with one text slide per page. The page text is copied onto each slide; images and layout are not kept."
+    },
+    "pdf-to-pptx": {
+      "title": "Free PDF to PPTX",
+      "metaTitle": "PDF to PPTX Converter Free: No Upload",
+      "description": "Make a PPTX from a PDF's text, one slide per page, right in your browser. Good for pulling notes into slides; designed pages lose their layout."
+    },
+    "word-to-pdf": {
+      "title": "Free Word to PDF",
+      "metaTitle": "Word to PDF Free: Quick Text PDF, No Upload",
+      "description": "Turn the text of a Word DOCX into a one-page PDF in your browser. It keeps the first 36 lines as plain text on an image page, so use Word's own export for formatted documents."
+    },
+    "docx-to-pdf": {
+      "title": "Free DOCX to PDF",
+      "metaTitle": "DOCX to PDF Free: Simple Text PDF",
+      "description": "Make a quick one-page PDF from the text in a DOCX file, without uploading it. Formatting is dropped and only the first 36 lines are drawn, as an image."
+    },
+    "excel-to-pdf": {
+      "title": "Free Excel to PDF",
+      "metaTitle": "Excel to PDF Free: Print a Simple Table",
+      "description": "Turn an XLSX sheet into a one-page PDF of its rows in your browser. The first 36 rows are drawn as plain text on an image page, with no cell styling."
+    },
+    "xlsx-to-pdf": {
+      "title": "Free XLSX to PDF",
+      "metaTitle": "XLSX to PDF Converter: Quick Table PDF",
+      "description": "Make a one-page PDF from the rows of an XLSX file without uploading it. Up to 36 rows are drawn as text on an image, so it suits small tables."
+    },
+    "html-to-pdf": {
+      "title": "Free HTML to PDF",
+      "metaTitle": "HTML to PDF: Paste HTML, Get a Text PDF",
+      "description": "Paste HTML and get a one-page PDF of its text in your browser. Tags and styles are stripped and up to 36 lines are drawn, so it is for quick text, not web page capture."
+    },
+    "text-to-pdf": {
+      "title": "Free Text to PDF",
+      "metaTitle": "Text to PDF Converter Free: Paste and Save",
+      "description": "Paste plain text and save it as a one-page PDF in your browser. Up to 36 lines fit on the page, drawn as an image."
+    },
+    "csv-to-pdf": {
+      "title": "Free CSV to PDF",
+      "metaTitle": "CSV to PDF Converter Free: Simple Table",
+      "description": "Turn a CSV file into a one-page PDF of its rows, drawn in your browser. Up to 36 rows fit, so it is best for short lists."
+    },
+    "ocr": {
+      "title": "Free Online OCR",
+      "metaTitle": "Free OCR Online: Extract Text from Images",
+      "description": "Extract text from screenshots, photos and scans with Tesseract OCR in your browser. Choose English, Chinese, Spanish, French, German, Japanese or Korean and copy the result."
+    },
+    "image-to-text": {
+      "title": "Free Image to Text",
+      "metaTitle": "Image to Text Converter Free: Online OCR",
+      "description": "Copy text out of an image, screenshot or photo with OCR that runs in your browser. Seven languages are supported, and the picture is never uploaded."
+    },
+    "compare-pdf": {
+      "title": "Free Compare PDF",
+      "metaTitle": "Compare PDF Files Online Free: Text Diff",
+      "description": "Compare the text of two PDFs line by line and see what changed. It reads the text layer in your browser; visual changes and scanned pages are not compared."
+    },
+    "document-compare": {
+      "title": "Free Compare Documents",
+      "metaTitle": "Compare Two Documents Online Free",
+      "description": "Compare two documents, PDF, DOCX, XLSX or plain text, and see the lines that differ. Paste text or add files; everything is read in your browser."
+    },
+    "compare-word-documents": {
+      "title": "Free Compare Word Documents",
+      "metaTitle": "Compare Word Documents Online Free: DOCX",
+      "description": "Compare two Word DOCX files and list the lines that changed. The text is read in your browser; formatting changes are not shown."
+    },
+    "pdf-imposition": {
+      "title": "Free PDF Imposition",
+      "metaTitle": "PDF Imposition Online: 2-Up Layout Free",
+      "description": "Place two PDF pages on each Letter sheet, stacked top and bottom. Print and trim; it runs in your browser and keeps the pages as vectors."
+    },
+    "pdf-booklet-maker": {
+      "title": "Free PDF Booklet Maker",
+      "metaTitle": "PDF Booklet Maker: Saddle-Stitch Spreads",
+      "description": "Lay out PDF pages as booklet spreads on landscape Letter sheets. The last page is paired with the first, but this version only places the outer spread of each sheet, so check the page count before you print."
+    },
+    "n-up-pdf": {
+      "title": "Free N-up PDF",
+      "metaTitle": "N-up PDF: 4 Pages per Sheet Free",
+      "description": "Put four PDF pages on each Letter sheet to save paper when printing handouts. It runs in your browser and keeps the pages as vectors."
+    },
+    "business-card-imposition": {
+      "title": "Free Business Card Imposition",
+      "metaTitle": "Business Card Layout: 10 Up on Letter Free",
+      "description": "Repeat the first page of your PDF ten times on a Letter sheet for business cards. Cards are placed 2 by 5 at 3.5×2 inches, without crop marks."
+    },
+    "bank-statement-converter": {
+      "title": "Free Bank Statement Converter",
+      "metaTitle": "Bank Statement to CSV: Sample Preview",
+      "description": "See how a bank statement converts to dated CSV rows using the built-in sample. This version returns the sample rows for most real statements, so it is not ready for your own files yet."
+    },
+    "bank-statement-to-csv": {
+      "title": "Free Bank Statement to CSV",
+      "metaTitle": "Bank Statement to CSV: Sample Preview",
+      "description": "Preview the CSV format, date, description and amount, with the built-in sample statement. Real PDF statements are not parsed correctly yet, so use your bank's own CSV export for now."
+    },
+    "pdf-bank-statement-to-excel": {
+      "title": "Free Bank Statement to Excel",
+      "metaTitle": "PDF Bank Statement to Excel: Sample Preview",
+      "description": "Preview an XLSX of dated transactions built from the sample statement. This version does not yet read your own PDF statements correctly, so check your bank's Excel or CSV export."
+    },
+    "pdf-to-qbo": {
+      "title": "Free PDF to QBO",
+      "metaTitle": "PDF to QBO: Sample QuickBooks File",
+      "description": "Download a sample QBO file to see the QuickBooks Web Connect format. Real PDF statements are not parsed correctly yet, so do not import the result into your books."
+    },
+    "gantt-chart-maker": {
+      "title": "Free Gantt Chart Maker",
+      "metaTitle": "Gantt Chart Maker: Sample SVG Chart",
+      "description": "Download a sample three-task Gantt chart as an SVG file. It shows Design, Build and Review; entering your own tasks is not supported yet, so edit the labels in any vector editor."
+    },
+    "gantt-chart-template": {
+      "title": "Free Gantt Chart Template",
+      "metaTitle": "Free Gantt Chart Template: SVG Download",
+      "description": "Download a four-phase Gantt chart template as an SVG file. Open it in Figma, Illustrator or Inkscape to rename Discover, Design, Build and Launch."
+    },
+    "project-timeline-maker": {
+      "title": "Free Project Timeline Maker",
+      "metaTitle": "Project Timeline Template: Free SVG",
+      "description": "Download a simple project timeline with three milestones as an SVG. It shows Kickoff, Build and Launch; edit the labels and months in any vector editor."
+    },
+    "block-puzzle": {
+      "title": "Free Block Puzzle",
+      "metaTitle": "Block Puzzle Game Online Free",
+      "description": "Move falling blocks left or right and drop them to clear full rows on a 10×16 board. Each cleared row scores 10 points; pieces don't rotate in this version."
+    },
+    "chess": {
+      "title": "Free Play Chess Online",
+      "metaTitle": "Play Chess Online Free: Two Players, One Board",
+      "description": "Play chess with a friend on one screen, with legal moves checked for each piece. There is no computer opponent; you take turns as White and Black."
+    },
+    "minesweeper": {
+      "title": "Free Minesweeper",
+      "metaTitle": "Play Minesweeper Online Free: 9×9",
+      "description": "Clear a 9×9 Minesweeper board with 10 mines, and right-click to place flags. Your first click is always safe."
+    },
+    "periodic-table": {
+      "title": "Free Periodic Table",
+      "metaTitle": "Periodic Table: All 118 Elements",
+      "description": "Browse all 118 elements in the standard periodic table layout. Click any element to see its name and atomic number."
+    },
+    "snake-game": {
+      "title": "Free Play Snake Online",
+      "metaTitle": "Play Snake Online Free",
+      "description": "Guide the snake around a 16×16 grid, eat the food and avoid the walls and your own tail. Steer with the on-screen buttons; no download needed."
+    },
+    "solitaire": {
+      "title": "Free Solitaire",
+      "metaTitle": "Solitaire Online: Deal a Klondike Layout",
+      "description": "Deal a Klondike solitaire layout and draw cards from the stock. Moving cards between piles is not supported yet, so this is a deal preview rather than a full game."
+    },
+    "keyboard-test": {
+      "title": "Free Keyboard Test",
+      "metaTitle": "Keyboard Test Online: Check Every Key",
+      "description": "Press keys to check that your keyboard registers each one. The last eight keys are shown, so stuck or dead keys are easy to spot."
+    },
+    "mouse-test": {
+      "title": "Free Mouse Test",
+      "metaTitle": "Mouse Test Online: Check Clicks and Movement",
+      "description": "Move your mouse inside the box to see the pointer position and check clicks. It is a quick check for a dead button or a jumpy sensor."
+    },
+    "screen-test": {
+      "title": "Free Screen Test",
+      "metaTitle": "Screen Test Online: Quick Color Check",
+      "description": "Cycle a color swatch through red, green, blue, white and black to check your display. It is a quick color check, not a full-screen dead pixel scan."
+    },
+    "speaker-test": {
+      "title": "Free Speaker Test",
+      "metaTitle": "Speaker Test Online: Play a 440 Hz Tone",
+      "description": "Play a short 440 Hz test tone to check that your speakers or headphones work. It runs in your browser with nothing to install."
+    },
+    "mic-test": {
+      "title": "Free Microphone Test",
+      "metaTitle": "Microphone Test Online: Check Your Mic",
+      "description": "Check that your microphone picks up sound and see its input level. The audio is read for a moment in your browser and is not recorded or uploaded."
+    },
+    "webcam-test": {
+      "title": "Free Webcam Test",
+      "metaTitle": "Webcam Test Online: Check Your Camera Free",
+      "description": "Turn on your webcam to check that it works and see a live preview. The video stays in your browser; nothing is recorded or uploaded."
+    },
+    "age-calculator": {
+      "title": "Free Age Calculator",
+      "metaTitle": "Age Calculator: Exact Age in Years, Months, Days",
+      "description": "Enter a birth date to get an exact age in years, months and days. Calculate it as of today or any date you choose."
+    },
+    "bmi-calculator": {
+      "title": "Free BMI Calculator",
+      "metaTitle": "BMI Calculator Free: kg and cm",
+      "description": "Enter your weight in kg and height in cm to get your BMI and its category. BMI is a screening number, not a diagnosis."
+    },
+    "date-calculator": {
+      "title": "Free Date Calculator",
+      "metaTitle": "Date Calculator: Days Between Two Dates",
+      "description": "Count the number of days between two dates. Pick a start and end date and the difference appears right away."
+    },
+    "gpa-calculator": {
+      "title": "Free GPA Calculator",
+      "metaTitle": "GPA Calculator: 4.0 Scale, Weighted by Hours",
+      "description": "Enter a letter grade and the course hours, one course per line, to get your GPA on a 4-point scale. A is 4, B 3, C 2, D 1 and F 0; plus and minus grades are not supported."
+    },
+    "loan-calculator": {
+      "title": "Free Loan Calculator",
+      "metaTitle": "Loan Calculator: Monthly Payment Free",
+      "description": "Enter the loan amount, annual interest rate and term in years to see the monthly payment. It uses a standard fixed-rate amortization formula."
+    },
+    "mortgage-calculator": {
+      "title": "Free Mortgage Calculator",
+      "metaTitle": "Mortgage Calculator: Payment and Interest",
+      "description": "Work out the monthly mortgage payment and total interest in seconds. Enter the loan amount, rate and term; taxes, insurance and fees are not included."
+    },
+    "percentage-calculator": {
+      "title": "Free Percentage Calculator",
+      "metaTitle": "Percentage Calculator: What Percent of a Number",
+      "description": "Find what percent one number is of another, such as 20 out of 50 being 40%. Type the part and the whole and read the answer."
+    },
+    "scientific-calculator": {
+      "title": "Free Scientific Calculator",
+      "metaTitle": "Scientific Calculator Online Free",
+      "description": "Type an expression with sin, cos, sqrt, log, ln and brackets and get the result. Angles are in radians, and there is no app to install."
+    },
+    "dice-roller": {
+      "title": "Free Dice Roller",
+      "metaTitle": "Dice Roller Online: Roll 2d6, 1d20 and More",
+      "description": "Roll dice with notation such as 2d6 or 1d20 and see each roll and the total. Up to 20 dice per roll."
+    },
+    "flip-a-coin": {
+      "title": "Free Flip a Coin",
+      "metaTitle": "Flip a Coin Online: Heads or Tails",
+      "description": "Flip a virtual coin and get heads or tails instantly. Each flip is random and independent."
+    },
+    "random-number-generator": {
+      "title": "Free Random Number Generator",
+      "metaTitle": "Random Number Generator: Pick a Number Free",
+      "description": "Pick a random whole number between any minimum and maximum, such as 1 to 100. Both ends of the range can come up."
+    },
+    "spin-the-wheel": {
+      "title": "Free Spin the Wheel",
+      "metaTitle": "Spin the Wheel: Random Picker Free",
+      "description": "Type your options separated by commas and spin to pick one at random. The result appears as text; there is no animated wheel."
+    },
+    "online-timer": {
+      "title": "Free Online Timer",
+      "metaTitle": "Online Timer: Set Minutes and Start Free",
+      "description": "Set a timer in minutes and watch it count down in your browser tab. Keep the tab open; it does not play an alarm sound."
+    },
+    "countdown-timer": {
+      "title": "Free Countdown Timer",
+      "metaTitle": "Countdown Timer Online: Any Date and Time",
+      "description": "Count down to a date and time you pick, such as a launch or a holiday. The minutes and seconds left update every second."
+    },
+    "pomodoro-timer": {
+      "title": "Free Pomodoro Timer",
+      "metaTitle": "Pomodoro Timer Online: 25-Minute Focus",
+      "description": "Start a 25-minute Pomodoro focus timer in your browser. There is no alarm sound, so keep the tab visible and take your break at zero."
+    },
+    "stopwatch": {
+      "title": "Free Online Stopwatch",
+      "metaTitle": "Online Stopwatch Free: Simple Count-Up",
+      "description": "Start a stopwatch that counts up in minutes and seconds. It counts whole seconds and has no lap button."
+    },
+    "world-clock": {
+      "title": "Free World Clock",
+      "metaTitle": "World Clock: Current Time in Major Cities",
+      "description": "See the current time in seven major time zones at a glance. UTC, Shanghai, Tokyo, London, New York, Los Angeles and Sydney update every second."
+    },
+    "data-explorer": {
+      "title": "Free Data Explorer",
+      "metaTitle": "CSV and JSON Data Explorer Online Free",
+      "description": "Open a CSV or JSON file as a table and see its row and column count. A sum of the second column is shown too, and everything is read in your browser."
+    },
+    "csv-viewer": {
+      "title": "Free CSV Viewer",
+      "metaTitle": "CSV Viewer Online: Open CSV as a Table Free",
+      "description": "Open a CSV file as a readable table in your browser, with row and column counts. No spreadsheet app and no upload needed."
+    },
+    "excel-viewer": {
+      "title": "Free Excel Viewer",
+      "metaTitle": "Excel Viewer Online: Open XLSX Free",
+      "description": "Open an XLSX spreadsheet as a table in your browser without Excel. See the rows and columns of the first sheet; nothing is uploaded."
+    },
+    "json-to-csv": {
+      "title": "Free JSON to CSV",
+      "metaTitle": "JSON to CSV Converter Online Free",
+      "description": "Paste a JSON array of objects and download it as a CSV with one column per key. Preview the table before you save."
+    },
+    "csv-to-excel": {
+      "title": "Free CSV to Excel",
+      "metaTitle": "CSV to Excel Converter Free: CSV to XLSX",
+      "description": "Convert a CSV file to an Excel XLSX spreadsheet in your browser. Preview the rows first; the file is not uploaded."
+    },
+    "parquet-viewer": {
+      "title": "Free Parquet Viewer",
+      "metaTitle": "Parquet Viewer Online: Open Parquet Files Free",
+      "description": "Open an Apache Parquet file as a table in your browser and see its rows and columns. No Python, Spark or upload needed."
+    },
+    "parquet-to-csv": {
+      "title": "Free Parquet to CSV",
+      "metaTitle": "Parquet to CSV Converter Online Free",
+      "description": "Convert a Parquet file to CSV in your browser and preview the table. The data never leaves your device."
+    },
+    "sqlite-viewer": {
+      "title": "Free SQLite Viewer",
+      "metaTitle": "SQLite Viewer Online: Early Preview",
+      "description": "Open a SQLite database in your browser with a WebAssembly SQL engine. This version runs one fixed query on a people table, so most of your own databases will not show their data yet."
+    },
+    "gis-viewer": {
+      "title": "Free GIS Viewer",
+      "metaTitle": "GIS Viewer Online: GeoJSON, KML, GPX, Shapefile",
+      "description": "Plot GeoJSON, KML, GPX or zipped Shapefile data in your browser and count the features. Shapes are drawn on a plain canvas without a basemap."
+    },
+    "kml-viewer": {
+      "title": "Free KML Viewer",
+      "metaTitle": "KML Viewer Online Free: No Google Earth",
+      "description": "Open a KML file and see its points, lines and polygons drawn in your browser. There is no background map; it is a quick check of the shapes."
+    },
+    "geojson-viewer": {
+      "title": "Free GeoJSON Viewer",
+      "metaTitle": "GeoJSON Viewer Online: Plot Features Free",
+      "description": "Drop a GeoJSON file to draw its features and count them, right in your browser. Shapes are plotted without a basemap."
+    },
+    "gpx-viewer": {
+      "title": "Free GPX Viewer",
+      "metaTitle": "GPX Viewer Online: See Your Track Free",
+      "description": "Open a GPX track or route from a watch, bike computer or app and see its shape. The track is drawn in your browser without a basemap."
+    },
+    "shapefile-viewer": {
+      "title": "Free Shapefile Viewer",
+      "metaTitle": "Shapefile Viewer Online: Open SHP Free",
+      "description": "Open a zipped Shapefile or a single SHP and draw its polygons in your browser. Point and line layers are not shown in this version."
+    },
+    "kml-to-geojson": {
+      "title": "Free KML to GeoJSON",
+      "metaTitle": "KML to GeoJSON Converter Online Free",
+      "description": "Convert KML placemarks, paths and polygons to GeoJSON in your browser. Preview the shapes, then download the file."
+    },
+    "geojson-to-kml": {
+      "title": "Free GeoJSON to KML",
+      "metaTitle": "GeoJSON to KML Converter for Google Earth",
+      "description": "Convert GeoJSON features to a KML file you can open in Google Earth or My Maps. The conversion runs in your browser."
+    },
+    "gpx-to-kml": {
+      "title": "Free GPX to KML",
+      "metaTitle": "GPX to KML Converter Free for Google Earth",
+      "description": "Convert a GPX track to KML to view it in Google Earth. Preview the route shape and download the file, with nothing uploaded."
+    },
+    "kml-to-gpx": {
+      "title": "Free KML to GPX",
+      "metaTitle": "KML to GPX Converter Free for GPS Devices",
+      "description": "Convert KML paths and placemarks to GPX for a GPS device, watch or route app. It runs in your browser."
+    },
+    "shapefile-to-geojson": {
+      "title": "Free Shapefile to GeoJSON",
+      "metaTitle": "Shapefile to GeoJSON Converter Online Free",
+      "description": "Convert a zipped Shapefile with its SHP and DBF files to GeoJSON in your browser. Feature names come from the DBF when present; coordinates are not reprojected."
+    },
+    "geojson-to-shapefile": {
+      "title": "Free GeoJSON to Shapefile",
+      "metaTitle": "GeoJSON to Shapefile Converter Online Free",
+      "description": "Convert GeoJSON polygons to a zipped Shapefile with SHP, SHX and DBF files. It runs in your browser; no PRJ projection file is included."
+    },
+    "dicom-viewer": {
+      "title": "Free DICOM Viewer",
+      "metaTitle": "DICOM Viewer Online Free: Open DCM Files",
+      "description": "Open a DICOM file in your browser to see the image, its size and the patient name tag. Not for diagnosis; the file is not uploaded."
+    },
+    "dicom-anonymizer": {
+      "title": "Free DICOM Anonymizer",
+      "metaTitle": "DICOM Anonymizer: Remove Patient Name Free",
+      "description": "Replace the patient name and patient ID in a DICOM file, in your browser. Download the new DCM; other tags such as birth date or institution are kept, so check them before you share."
+    },
+    "dicom-to-jpg": {
+      "title": "Free DICOM to JPG",
+      "metaTitle": "DICOM to JPG Converter Online Free",
+      "description": "Convert a DICOM image to a grayscale JPG in your browser for slides or notes. The file is not uploaded."
+    },
+    "grammar-checker": {
+      "title": "Free Grammar Checker",
+      "metaTitle": "Grammar Checker Online Free: Basic Checks",
+      "description": "Catch common English slips such as repeated words and double spaces. It also flags a lowercase first word or pronoun I, a space before a comma, and “a” before apple or hour. This is a basic rule check, not a full grammar or spelling engine."
+    },
+    "diff-checker": {
+      "title": "Free Diff Checker",
+      "metaTitle": "Diff Checker: Compare Text Online Free",
+      "description": "Paste two texts, or add two files, and see which lines differ. The comparison runs in your browser, so private text stays on your device."
+    },
+    "base64-encoder": {
+      "title": "Free Base64 Encoder",
+      "metaTitle": "Base64 Encode Online: Text and Files to Base64",
+      "description": "Encode text or any file to Base64 in your browser. UTF-8 and emoji are handled correctly, and a URL-safe option drops + / and = for tokens and URLs."
+    },
+    "url-encoder": {
+      "title": "Free URL Encoder",
+      "metaTitle": "URL Encode Online: Percent-Encode Text and Links",
+      "description": "Percent-encode text, query values or a whole URL. Spaces become %20 and accents become UTF-8 bytes, matching JavaScript's encodeURIComponent and encodeURI."
+    },
+    "html-entity-encoder": {
+      "title": "Free HTML Entity Encoder",
+      "metaTitle": "HTML Entity Encoder and Decoder Online",
+      "description": "Escape < > & \" and ' as HTML entities, or decode named and numeric entities back to text. Optionally encode every non-ASCII character too."
+    },
+    "uuid-generator": {
+      "title": "Free UUID Generator",
+      "metaTitle": "UUID Generator Online: Random UUID v4 in Bulk",
+      "description": "Generate random version 4 UUIDs, from one to 1,000 at a time, using your browser's secure random generator. Copy them or download a list."
+    },
+    "hash-generator": {
+      "title": "Free Hash Generator",
+      "metaTitle": "Hash Generator Online: MD5, SHA-1, SHA-256, SHA-512",
+      "description": "Get the MD5, SHA-1, SHA-256, SHA-384 and SHA-512 hash of text or a file at once, and compare it with a known checksum. Files never leave your device."
+    },
+    "jwt-decoder": {
+      "title": "Free JWT Decoder",
+      "metaTitle": "JWT Decoder Online: Read Header, Payload and Expiry",
+      "description": "Paste a JSON Web Token to read its header and payload as formatted JSON, with iat, nbf and exp turned into dates. The token is decoded in your browser."
+    },
+    "regex-tester": {
+      "title": "Free Regex Tester",
+      "metaTitle": "Regex Tester Online: Test JavaScript Regular Expressions",
+      "description": "Test a JavaScript regular expression against your text with live highlighting, capture groups, named groups and replace. Runaway patterns are stopped after 1.5 seconds."
+    },
+    "case-converter": {
+      "title": "Free Case Converter",
+      "metaTitle": "Case Converter: Title Case, Uppercase, camelCase",
+      "description": "Change text to UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case or CONSTANT_CASE in one click."
+    },
+    "lorem-ipsum-generator": {
+      "title": "Free Lorem Ipsum Generator",
+      "metaTitle": "Lorem Ipsum Generator: Placeholder Text",
+      "description": "Generate lorem ipsum dummy text by paragraphs, sentences or words, with the classic opening and optional <p> tags. Copy it straight into a mockup."
+    },
+    "remove-duplicate-lines": {
+      "title": "Free Remove Duplicate Lines",
+      "metaTitle": "Remove Duplicate Lines Online: Dedupe a List",
+      "description": "Delete repeated lines from a list and keep the first of each, in order. Options to ignore case, trim spaces and drop empty lines; you can also sort the result."
+    },
+    "unix-timestamp-converter": {
+      "title": "Free Unix Timestamp Converter",
+      "metaTitle": "Unix Timestamp Converter: Epoch to Date and Back",
+      "description": "Convert a Unix timestamp in seconds, milliseconds, microseconds or nanoseconds to a readable date in UTC and your local time zone, or turn a date into a timestamp."
+    },
+    "cron-expression-generator": {
+      "title": "Free Cron Expression Generator",
+      "metaTitle": "Cron Expression Generator and Explainer",
+      "description": "Build or paste a 5-field cron expression and see it explained in plain words, with the next run times. Works for crontab, Kubernetes CronJobs and GitHub Actions."
+    },
+    "number-base-converter": {
+      "title": "Free Number Base Converter",
+      "metaTitle": "Number Base Converter: Binary, Octal, Decimal, Hex",
+      "description": "Convert a number between binary, octal, decimal, hexadecimal and any base from 2 to 36. Very large integers keep every digit."
+    },
+    "yaml-to-json": {
+      "title": "Free YAML to JSON Converter",
+      "metaTitle": "YAML to JSON Converter Online",
+      "description": "Convert YAML to formatted JSON in your browser, with clear error messages. Supports YAML 1.2, anchors and multiple documents; switch direction for JSON to YAML."
+    },
+    "markdown-preview": {
+      "title": "Free Markdown Preview",
+      "metaTitle": "Markdown Preview Online: Live Editor",
+      "description": "Write Markdown and see it rendered live, with GitHub-flavored tables, task lists, strikethrough and code blocks. Export the HTML or download the .md file."
+    },
+    "sql-formatter": {
+      "title": "Free SQL Formatter",
+      "metaTitle": "SQL Formatter Online: Beautify SQL Queries",
+      "description": "Format and beautify SQL for MySQL, PostgreSQL, SQL Server, Oracle, SQLite, BigQuery, Snowflake and more. Choose keyword case and indentation."
+    },
+    "base64-decode": {
+      "title": "Free Base64 Decode",
+      "metaTitle": "Base64 Decode Online: Base64 to Text or File",
+      "description": "Decode Base64 or Base64URL back to readable UTF-8 text, or download it as a file when it holds binary data. Data URIs are accepted as they are."
+    },
+    "url-decode": {
+      "title": "Free URL Decode",
+      "metaTitle": "URL Decode Online: Decode %20 and Query Strings",
+      "description": "Decode percent-encoded URLs and query strings back to readable text, including UTF-8 characters. Query parameters are listed one per row."
+    },
+    "guid-generator": {
+      "title": "Free GUID Generator",
+      "metaTitle": "GUID Generator Online: Random GUIDs in Bulk",
+      "description": "Generate random GUIDs (UUID v4) in bulk, in uppercase or lowercase, with or without braces and hyphens, ready for .NET, SQL Server or the Windows registry."
+    },
+    "md5-generator": {
+      "title": "Free MD5 Generator",
+      "metaTitle": "MD5 Hash Generator Online: Text and Files",
+      "description": "Create the MD5 hash of text or a file in your browser and compare it with an expected checksum. SHA-1 and SHA-256 are shown alongside."
+    },
+    "sha256-generator": {
+      "title": "Free SHA256 Generator",
+      "metaTitle": "SHA256 Hash Generator Online: Text and File Checksum",
+      "description": "Get the SHA-256 hash of text or a file using your browser's Web Crypto API, and check it against a published checksum. SHA-512 and others are shown too."
+    },
+    "uppercase-converter": {
+      "title": "Free Uppercase Converter",
+      "metaTitle": "Uppercase Converter: Convert Text to Capital Letters",
+      "description": "Convert text to UPPERCASE instantly, or switch to lowercase, Title Case or Sentence case with one click. Works with accented and non-Latin letters."
+    },
+    "sort-lines-alphabetically": {
+      "title": "Free Sort Lines Alphabetically",
+      "metaTitle": "Sort Lines Alphabetically Online: A–Z List Sorter",
+      "description": "Sort a list A–Z or Z–A, in natural order so item 2 comes before item 10, by length, reversed or shuffled. Remove duplicates and empty lines in the same step."
+    },
+    "epoch-converter": {
+      "title": "Free Epoch Converter",
+      "metaTitle": "Epoch Converter: Epoch Time to Human Date",
+      "description": "Convert epoch time to a human-readable date and back. Shows the current epoch, UTC, ISO 8601 and your local time, with seconds and milliseconds detected for you."
+    },
+    "binary-to-decimal": {
+      "title": "Free Binary to Decimal Converter",
+      "metaTitle": "Binary to Decimal Converter",
+      "description": "Convert binary numbers to decimal instantly, with hexadecimal and octal alongside. Long binary strings stay exact, and digits can be grouped in fours."
+    },
+    "hex-to-decimal": {
+      "title": "Free Hex to Decimal Converter",
+      "metaTitle": "Hex to Decimal Converter",
+      "description": "Convert hexadecimal to decimal, binary and octal in one step. Accepts 0x prefixes and any length, with exact results."
+    },
+    "json-to-yaml": {
+      "title": "Free JSON to YAML Converter",
+      "metaTitle": "JSON to YAML Converter Online",
+      "description": "Convert JSON to clean, readable YAML in your browser, with 2- or 4-space indentation. Errors in the JSON are reported with their position."
+    },
+    "markdown-to-html": {
+      "title": "Free Markdown to HTML Converter",
+      "metaTitle": "Markdown to HTML Converter Online",
+      "description": "Convert Markdown to clean HTML with GitHub-flavored tables and task lists. Copy the HTML or download a complete page; raw HTML and unsafe links are removed."
+    },
+    "unit-converter": {
+      "title": "Free Unit Converter",
+      "metaTitle": "Unit Converter: Length, Weight, Temperature and More",
+      "description": "Convert length, weight, temperature, area, volume and speed between metric, imperial and US units. Type in either box and both sides update at once."
+    },
+    "kg-to-lbs": {
+      "title": "Free kg to lbs Converter",
+      "metaTitle": "kg to lbs: Kilograms to Pounds Converter",
+      "description": "Convert kilograms to pounds, or pounds to kilograms, as you type. 1 kg equals 2.20462 lb; a quick table covers common body and luggage weights."
+    },
+    "cm-to-inches": {
+      "title": "Free cm to Inches Converter",
+      "metaTitle": "cm to Inches Converter: Centimeters to Inches",
+      "description": "Convert centimeters to inches and inches to centimeters instantly. An inch is exactly 2.54 cm; switch to feet, meters or millimeters from the list."
+    },
+    "celsius-to-fahrenheit": {
+      "title": "Free Celsius to Fahrenheit Converter",
+      "metaTitle": "Celsius to Fahrenheit Converter (°C to °F)",
+      "description": "Convert Celsius to Fahrenheit and back as you type, using °F = °C × 9/5 + 32. Kelvin is included, and a table shows common temperatures."
+    },
+    "km-to-miles": {
+      "title": "Free km to Miles Converter",
+      "metaTitle": "km to Miles Converter: Kilometers to Miles",
+      "description": "Convert kilometers to miles and miles to kilometers as you type. 1 km is 0.621371 miles; a table covers common distances like 5K and 10K races."
+    },
+    "tip-calculator": {
+      "title": "Free Tip Calculator",
+      "metaTitle": "Tip Calculator: Tip and Split the Bill",
+      "description": "Work out the tip and split the bill between any number of people. Pick 15%, 18%, 20% or your own rate, and round each share up if you like."
+    },
+    "discount-calculator": {
+      "title": "Free Discount Calculator",
+      "metaTitle": "Discount Calculator: Sale Price and Savings",
+      "description": "Find the sale price after a percentage off, stack a second discount, add sales tax and see exactly how much you save."
+    },
+    "compound-interest-calculator": {
+      "title": "Free Compound Interest Calculator",
+      "metaTitle": "Compound Interest Calculator with Monthly Contributions",
+      "description": "See how savings grow with compound interest. Enter a starting amount, monthly contributions, rate and years, choose compounding, and get a year-by-year table."
+    },
+    "calorie-calculator": {
+      "title": "Free Calorie Calculator",
+      "metaTitle": "Calorie Calculator: Daily Calories to Maintain or Lose Weight",
+      "description": "Estimate how many calories you need a day to maintain, lose or gain weight, using the Mifflin-St Jeor equation and your activity level."
+    },
+    "salary-calculator": {
+      "title": "Free Salary Calculator",
+      "metaTitle": "Salary Calculator: Hourly, Monthly and Annual Pay",
+      "description": "Convert pay between hourly, daily, weekly, biweekly, monthly and yearly. Set your hours per week and paid weeks to match your job."
+    },
+    "roman-numeral-converter": {
+      "title": "Free Roman Numeral Converter",
+      "metaTitle": "Roman Numeral Converter: Numbers to Roman Numerals",
+      "description": "Convert numbers from 1 to 3999 to Roman numerals and Roman numerals back to numbers. Non-standard forms such as IIII are flagged."
+    },
+    "bmr-calculator": {
+      "title": "Free BMR Calculator",
+      "metaTitle": "BMR Calculator: Basal Metabolic Rate (Mifflin-St Jeor)",
+      "description": "Calculate your basal metabolic rate, the calories your body burns at rest, with the Mifflin-St Jeor equation, plus daily needs for each activity level."
+    },
+    "hourly-to-salary-calculator": {
+      "title": "Free Hourly to Salary Calculator",
+      "metaTitle": "Hourly to Salary Calculator: Wage to Annual Pay",
+      "description": "Turn an hourly wage into yearly, monthly, biweekly, weekly and daily pay. Change hours per week and paid weeks for part-time or seasonal work."
+    },
+    "color-palette-generator": {
+      "title": "Free Color Palette Generator",
+      "metaTitle": "Color Palette Generator: From Image or One Color",
+      "description": "Extract a color palette from any image, or build analogous, complementary, triadic and shade palettes from one color. Copy HEX codes or CSS variables."
+    },
+    "color-converter": {
+      "title": "Free Color Converter",
+      "metaTitle": "Color Converter: HEX, RGB, HSL, HSV, CMYK",
+      "description": "Convert any color between HEX, RGB, HSL, HSV and CMYK, with a picker and a WCAG contrast check against white and black text."
+    },
+    "hex-to-rgb": {
+      "title": "Free HEX to RGB Converter",
+      "metaTitle": "HEX to RGB Color Converter",
+      "description": "Convert HEX color codes to RGB instantly, including 3-digit and 8-digit codes with alpha. HSL, HSV and CMYK are shown too."
+    },
+    "rgb-to-hex": {
+      "title": "Free RGB to HEX Converter",
+      "metaTitle": "RGB to HEX Color Converter",
+      "description": "Convert RGB values to a HEX color code instantly. Paste rgb(), rgba() or three numbers, and copy the hex code or any other format."
+    },
+    "favicon-generator": {
+      "title": "Free Favicon Generator",
+      "metaTitle": "Favicon Generator: ICO, PNG and Apple Touch Icon",
+      "description": "Create a complete favicon package from a logo, letter or emoji: favicon.ico, PNGs from 16 to 512 px, an Apple touch icon, a web manifest and the HTML tags."
+    },
+    "image-to-base64": {
+      "title": "Free Image to Base64 Converter",
+      "metaTitle": "Image to Base64 Converter: Data URI for HTML and CSS",
+      "description": "Convert an image to Base64 and get a data URI, raw Base64, a CSS background rule or an HTML img tag. Works with PNG, JPG, SVG, WebP and GIF."
+    },
+    "svg-optimizer": {
+      "title": "Free SVG Optimizer",
+      "metaTitle": "SVG Optimizer Online: Minify and Clean SVG Files",
+      "description": "Make SVG files smaller by removing comments, metadata, editor data from Illustrator, Inkscape, Sketch and Figma, scripts and long decimals. Preview and compare sizes."
+    },
+    "meme-generator": {
+      "title": "Free Meme Generator",
+      "metaTitle": "Meme Generator: Add Top and Bottom Text to Images",
+      "description": "Make a meme from your own picture with classic top and bottom text in bold outlined letters. Adjust size and color, then download a PNG."
+    },
+    "tic-tac-toe": {
+      "title": "Free Tic Tac Toe",
+      "metaTitle": "Tic Tac Toe Online: Play vs Computer or a Friend",
+      "description": "Play tic tac toe in your browser against an unbeatable computer, an easy one, or a friend on the same screen. No download and no account."
+    },
+    "memory-game": {
+      "title": "Free Memory Game",
+      "metaTitle": "Memory Game Online: Match the Pairs",
+      "description": "Flip cards and find matching pairs in this classic memory game. Choose 6, 8 or 12 pairs and try to finish in as few moves as possible."
+    },
+    "reaction-time-test": {
+      "title": "Free Reaction Time Test",
+      "metaTitle": "Reaction Time Test: Measure Your Reflexes in ms",
+      "description": "Test your reaction time in milliseconds: wait for green, then click or press Space. See your average, median and best over the last five tries."
+    },
+    "color-blind-test": {
+      "title": "Free Color Blind Test",
+      "metaTitle": "Color Blind Test Online: Quick Ishihara-Style Check",
+      "description": "Take a quick color vision screening with eight Ishihara-style dot plates drawn in your browser. Type the number you see and get a simple result."
+    },
+    "gamepad-tester": {
+      "title": "Free Gamepad Tester",
+      "metaTitle": "Gamepad Tester: Check Controller Buttons and Stick Drift",
+      "description": "Test an Xbox, PlayStation, Switch Pro or other controller in your browser. See every button, trigger pressure and stick position live, and spot stick drift."
+    },
+    "what-is-my-ip": {
+      "title": "Free What Is My IP",
+      "metaTitle": "What Is My IP Address? Check Your Public IP",
+      "description": "See your public IP address the way websites see it, with IPv4 or IPv6 and the country your network reports. One click, no tracking."
+    },
+    "internet-speed-test": {
+      "title": "Free Internet Speed Test",
+      "metaTitle": "Internet Speed Test: Download, Upload and Ping",
+      "description": "Test your internet speed: download, upload, latency and jitter, plus latency under load, measured against Cloudflare's global network. Starts only when you press the button."
+    },
+    "dns-lookup": {
+      "title": "Free DNS Lookup",
+      "metaTitle": "DNS Lookup: Check A, AAAA, MX, TXT, CNAME, NS Records",
+      "description": "Look up DNS records for any domain: A, AAAA, CNAME, MX, NS, TXT, SOA and CAA, with TTLs. Queries go over HTTPS to Cloudflare's 1.1.1.1 resolver."
+    },
+    "currency-converter": {
+      "title": "Free Currency Converter",
+      "metaTitle": "Currency Converter: Daily Exchange Rates",
+      "description": "Convert between 30+ currencies, including USD, EUR, GBP, JPY and CNY, with daily mid-market reference rates from central banks via the Frankfurter API."
+    }
+  },
+  "services": {
+    "what-is-my-ip": "Cloudflare's public trace endpoint (cloudflare.com/cdn-cgi/trace)",
+    "dns-lookup": "Cloudflare's DNS-over-HTTPS resolver (cloudflare-dns.com)",
+    "currency-converter": "the Frankfurter API (api.frankfurter.dev, European Central Bank reference rates)",
+    "internet-speed-test": "Cloudflare's speed test network (speed.cloudflare.com)"
+  }
+}
